@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "vuepress": "^1.3.1"
+  }
+}
