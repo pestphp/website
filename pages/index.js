@@ -56,7 +56,7 @@ export default function Index() {
           <img className="py-6" src="assertions.png" alt="Assertions example" />
 
           <blockquote className="border-l-4 border-teal-500 italic my-8 pl-8 md:pl-12"></blockquote>
-          
+
           <p className="text-2xl py-6">Command-line interfaces that people love!</p>
 
           <p>
@@ -68,7 +68,7 @@ export default function Index() {
 
           <Quote
             avatarAlt={`Avatar of Michael Dyrynda`}
-            avatarUrl="https://pbs.twimg.com/profile_images/1191896240025489409/fBCBnHCm_400x400.jpg"
+            avatarUrl="dyrynda.jpg"
             company="Co-host of Laravel News Podcast"
             linkUrl="https://twitter.com/michaeldyrynda"
             name="Michael Dyrynda"
