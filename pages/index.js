@@ -3,7 +3,7 @@ import Quote from '../components/quote';
 import Newsletter from '../components/newsletter';
 
 import { DefaultSeo } from 'next-seo';
-import Head from 'next/head'
+import Head from 'next/head';
 
 export default function Index() {
   return (
@@ -18,11 +18,11 @@ export default function Index() {
           url: 'https://pestphp.com/',
           site_name: 'Pest - a delightful PHP Testing Framework',
           images: [
-          {
-            url: 'https://pestphp.com/love.jpg',
-            alt: 'Pest - a delightful PHP Testing Framework',
-          },
-        ],
+            {
+              url: 'https://pestphp.com/love.jpg',
+              alt: 'Pest - a delightful PHP Testing Framework',
+            },
+          ],
         }}
         twitter={{
           handle: '@pestphp',
@@ -40,7 +40,10 @@ export default function Index() {
           <p className="py-6">
             Did you ever wonder why you need a <code>namespace</code>, a <code>class</code> that{' '}
             <code>extends</code> something and a <code>method</code> to see your test?
-            <strong> Testing can be more intuitive, user-friendly and productive than you think!</strong>
+            <strong>
+              {' '}
+              Testing can be more intuitive, user-friendly and productive than you think!
+            </strong>
           </p>
 
           <p className="text-6xl py-6">Introducing Pest</p>
@@ -54,7 +57,7 @@ export default function Index() {
             <em>Ready? Let's see some code: </em>
           </p>
 
-          <video width="100%" height="240" autoPlay loop muted playsinline>
+          <video width="100%" height="240" autoPlay loop playsInline>
             <source src="pest.mp4" type="video/mp4"></source>
           </video>
 
@@ -85,8 +88,9 @@ export default function Index() {
           <p className="text-2xl py-6">Command-line interfaces that people love!</p>
 
           <p>
-            Pest gives you the most beautiful test reporting in the world, straight from the console! Brought
-            to you by the creators of Laravel Zero, Collision, Larastan & Php Insights.
+            Pest gives you the most beautiful test reporting in the world, straight from the
+            console! Brought to you by the creators of Laravel Zero, Collision, Larastan & Php
+            Insights.
           </p>
 
           <img className="py-6" src="love.jpg" alt="Interface" />
@@ -99,7 +103,6 @@ export default function Index() {
             name="Michael Dyrynda"
             quote="Looks gorgeous. You need to give some kind of shift from PHPUnit to Pest! 🔥"
           />
-
 
           <div className="py-6">
             <div className="font-sans bg-white rounded-lg shadow-md p-4 text-center">
@@ -138,8 +141,6 @@ export default function Index() {
       <footer className="bg-white border-t border-gray-400 shadow">
         <div className="container max-w-4xl mx-auto flex py-8">
           <div className="w-full mx-auto flex flex-wrap">
-
-
             <div className="flex w-full md:w-1/2">
               <div className="px-8">
                 <h3 className="font-bold text-gray-900">Social</h3>
