@@ -54,7 +54,7 @@ export default function Index() {
             <em>Ready? Let's see some code: </em>
           </p>
 
-          <video width="100%" height="240" autoPlay loop>
+          <video width="100%" height="240" autoPlay loop muted playsinline>
             <source src="pest.mp4" type="video/mp4"></source>
           </video>
 
