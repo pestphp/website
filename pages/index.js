@@ -3,28 +3,32 @@ import Quote from '../components/quote';
 import Newsletter from '../components/newsletter';
 
 import { DefaultSeo } from 'next-seo';
+import Head from 'next/head'
 
 export default function Index() {
   return (
     <div>
-        <DefaultSeo
-          openGraph={{
-            type: 'website',
-            locale: 'en_IE',
-            url: 'https://pestphp.com/',
-            site_name: 'Pest - a delightful PHP Testing Framework',
-            images: [
-            {
-              url: 'https://pestphp.com/love.jpg',
-              alt: 'Pest - a delightful PHP Testing Framework',
-            },
-          ],
-          }}
-          twitter={{
-            handle: '@pestphp',
-            cardType: 'summary_large_image',
-          }}
-        />
+      <Head>
+        <title>Pest - a delightful PHP Testing Framework</title>
+      </Head>
+      <DefaultSeo
+        openGraph={{
+          type: 'website',
+          locale: 'en_IE',
+          url: 'https://pestphp.com/',
+          site_name: 'Pest - a delightful PHP Testing Framework',
+          images: [
+          {
+            url: 'https://pestphp.com/love.jpg',
+            alt: 'Pest - a delightful PHP Testing Framework',
+          },
+        ],
+        }}
+        twitter={{
+          handle: '@pestphp',
+          cardType: 'summary_large_image',
+        }}
+      />
 
       <div className="container w-full md:max-w-3xl mx-auto">
         <div className="content-center w-full px-4 md:px-6 text-xl text-gray-800 leading-normal">
