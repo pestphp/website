@@ -9,6 +9,7 @@ If you want to start testing your PHP applications with Pest, visit the main rep
 ```
 git clone https://github.com/pestphp/website
 cd website
+yarn
 yarn serve
 ```
 
