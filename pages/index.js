@@ -4,8 +4,12 @@ import Newsletter from '../components/newsletter';
 
 import { DefaultSeo } from 'next-seo';
 import Head from 'next/head';
+import ReactGA from 'react-ga';
 
 export default function Index() {
+  ReactGA.initialize('UA-61404619-4');
+  ReactGA.pageview('/');
+
   return (
     <div>
       <Head>
@@ -15,10 +19,7 @@ export default function Index() {
           name="twitter:description"
           content="Introducing Pest: a delightful PHP Testing Framework with a focus on simplicity"
         />
-        <meta
-          name="twitter:image"
-          content="https://pestphp.com/twitter.png"
-        />
+        <meta name="twitter:image" content="https://pestphp.com/twitter.png" />
       </Head>
       <DefaultSeo
         openGraph={{

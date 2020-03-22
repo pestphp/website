@@ -9,6 +9,7 @@
     "next-seo": "^4.4.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-ga": "^2.7.0",
     "react-mailchimp-subscribe": "^2.1.0",
     "react-syntax-highlighter": "^12.2.1"
   },
