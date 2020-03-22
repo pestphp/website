@@ -5,6 +5,7 @@ import Newsletter from '../components/newsletter';
 import { DefaultSeo } from 'next-seo';
 import Head from 'next/head';
 import ReactGA from 'react-ga';
+import ReactPlayer from 'react-player';
 
 export default function Index() {
   ReactGA.initialize('UA-61404619-4');
@@ -55,13 +56,23 @@ export default function Index() {
             PHP.
           </p>
 
-          <p className="py-6">
-            <em>Ready? Let's see some code: </em>
-          </p>
+          <em>Ready? Let's see some code: </em>
 
-          <video width="100%" height="240" autoPlay loop playsInline muted>
-            <source src="pest.mp4" type="video/mp4"></source>
-          </video>
+          <ReactPlayer
+            config={{
+              vimeo: {
+                playerOptions: {
+                  background: true,
+                  muted: false,
+                  autoplay: false,
+                  loop: false
+                },
+              },
+            }}
+            width="100%"
+            height="500px"
+            url="https://vimeo.com/399624132?background=1&muted=0&autoplay=1&loop=1"
+          />
 
           <div className="py-6">
             <div className="font-sans bg-white rounded-lg shadow-md p-4 text-center">
