@@ -38,7 +38,7 @@ export default function Index() {
             src="https://raw.githubusercontent.com/nunomaduro/pest/master/art/logo.gif"
           />
           <p className="py-6 ">Testing can be more productive than you think.</p>
-          
+
           <p className="py-6">
             <strong>Introducing Pest</strong>: a delightful <strong>PHP Testing Framework</strong>{' '}
             with a focus on simplicity, and it was carefully crafted to bring the joy of testing to
@@ -57,7 +57,7 @@ export default function Index() {
             <div className="font-sans bg-white rounded-lg shadow-md p-4 text-center">
               <h2 className="font-bold break-normal text-xl md:text-3xl">Awesome right?</h2>
               <h3 className="font-bold break-normal font-normal text-gray-600 text-sm md:text-base">
-                Join the waiting list!
+                Get the latest updates!
               </h3>
               <div className="w-full text-center pt-4 mb-6">
                 <Newsletter />
@@ -100,7 +100,7 @@ export default function Index() {
             <div className="font-sans bg-white rounded-lg shadow-md p-4 text-center">
               <h2 className="font-bold break-normal text-xl md:text-3xl">Awesome right?</h2>
               <h3 className="font-bold break-normal font-normal text-gray-600 text-sm md:text-base">
-                Join the waiting list!
+                Get the latest updates!
               </h3>
               <div className="w-full text-center pt-4 mb-6">
                 <Newsletter />

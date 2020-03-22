@@ -49,7 +49,7 @@ export default function Newsletter() {
                       type="submit"
                       className="flex-1 mt-4 block md:inline-block appearance-none bg-teal-500 text-white text-base font-semibold tracking-wider uppercase py-4 rounded shadow hover:bg-teal-400"
                     >
-                      Request Early Access
+                      Subscribe
                     </button>
                   </div>
                 </form>
