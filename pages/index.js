@@ -37,20 +37,12 @@ export default function Index() {
             width="80%"
             src="https://raw.githubusercontent.com/nunomaduro/pest/master/art/logo.gif"
           />
+          <p className="py-6 ">Testing can be more productive than you think.</p>
+          
           <p className="py-6">
-            Did you ever wonder why you need a <code>namespace</code>, a <code>class</code> that{' '}
-            <code>extends</code> something and a <code>method</code> to see your test?
-            <strong>
-              {' '}
-              Testing can be more intuitive, user-friendly and productive than you think!
-            </strong>
-          </p>
-
-          <p className="text-6xl py-6">Introducing Pest</p>
-
-          <p className="py-6">
-            Pest is a delightful <strong>PHP Testing Framework</strong> with a focus on simplicity,
-            and it was carefully crafted to bring the joy of testing to PHP.
+            <strong>Introducing Pest</strong>: a delightful <strong>PHP Testing Framework</strong>{' '}
+            with a focus on simplicity, and it was carefully crafted to bring the joy of testing to
+            PHP.
           </p>
 
           <p className="py-6">
