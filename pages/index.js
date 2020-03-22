@@ -10,6 +10,15 @@ export default function Index() {
     <div>
       <Head>
         <title>Pest - a delightful PHP Testing Framework</title>
+        <meta name="twitter:title" content="Pest - a delightful PHP Testing Framework" />
+        <meta
+          name="twitter:description"
+          content="Introducing Pest: a delightful PHP Testing Framework with a focus on simplicity"
+        />
+        <meta
+          name="twitter:image"
+          content="https://pestphp.com/love.jpg"
+        />
       </Head>
       <DefaultSeo
         openGraph={{
@@ -40,7 +49,7 @@ export default function Index() {
           <p className="py-6 ">Testing can be more productive than you think.</p>
 
           <p className="py-6">
-            <strong>Introducing Pest</strong>: a delightful <strong>PHP Testing Framework</strong>{' '}
+            <strong>Introducing Pest</strong>: a delightful <strong>PHP Testing Framework</strong>
             with a focus on simplicity, and it was carefully crafted to bring the joy of testing to
             PHP.
           </p>
