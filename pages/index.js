@@ -58,21 +58,24 @@ export default function Index() {
 
           <em>Ready? Let's see some code: </em>
 
-          <ReactPlayer
-            config={{
-              vimeo: {
-                playerOptions: {
-                  background: true,
-                  muted: false,
-                  autoplay: false,
-                  loop: false
+          <div className="player-wrapper py-6 mt-6">
+            <ReactPlayer
+              className="react-player"
+              config={{
+                vimeo: {
+                  playerOptions: {
+                    background: true,
+                    muted: false,
+                    autoplay: false,
+                    loop: false,
+                  },
                 },
-              },
-            }}
-            width="100%"
-            height="500px"
-            url="https://vimeo.com/399624132?background=1&muted=0&autoplay=1&loop=1"
-          />
+              }}
+              width="100%"
+              height="100%"
+              url="https://vimeo.com/399629010?background=1&muted=0&autoplay=1&loop=1"
+            />
+          </div>
 
           <div className="py-6">
             <div className="font-sans bg-white rounded-lg shadow-md p-4 text-center">
