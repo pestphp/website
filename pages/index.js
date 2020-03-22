@@ -51,8 +51,8 @@ export default function Index() {
           <p className="py-6 ">Testing can be more productive than you think.</p>
 
           <p className="py-6">
-            <strong>Introducing Pest</strong>: a delightful <strong>PHP Testing Framework</strong>
-            with a focus on simplicity, and it was carefully crafted to bring the joy of testing to
+            <strong>Introducing Pest</strong>: a delightful <strong>PHP Testing Framework</strong> with
+            a focus on simplicity. It was carefully crafted to bring the joy of testing to
             PHP.
           </p>
 
