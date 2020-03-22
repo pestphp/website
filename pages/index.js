@@ -17,7 +17,7 @@ export default function Index() {
         />
         <meta
           name="twitter:image"
-          content="https://pestphp.com/love.jpg"
+          content="https://pestphp.com/twitter.png"
         />
       </Head>
       <DefaultSeo
