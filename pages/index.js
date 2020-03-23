@@ -89,7 +89,7 @@ export default function Index() {
             </div>
           </div>
 
-          <p className="text-2xl py-6">It fells like home!</p>
+          <p className="text-2xl py-6">It feels like home!</p>
 
           <p>
             Pest is powered by PHPUnit, so it couldn't be easier to get started. Just drop your
