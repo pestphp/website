@@ -18,17 +18,7 @@ export default function Newsletter() {
             case 'success':
               return <em>Thanks! We will get in touch soon...</em>;
             case 'error':
-              const replaceEnd = answer => {
-                if (typeof answer !== "string") {
-                  return "Your firewall or privacy protection are blocking this operation. Subscribe using this form: <a href='https://eepurl.com/dtSda9'>https://eepurl.com/dtSda9</a>";
-                }
-
-                const end = 'to list nunomaduro.com.';
-                const index = answer.indexOf(end);
-                return answer.substring(0, index != -1 ? index : answer.length);
-              };
-
-              return <em dangerouslySetInnerHTML={{ __html: replaceEnd(message) }} />;
+              return <em>For some reason, we were unable to add you to the newsletter. Please subscribe using this form: <a href="https://eepurl.com/dtSda9">https://eepurl.com/dtSda9</a>.</em>;
             default:
               return (
                 <form
