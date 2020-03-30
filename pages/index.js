@@ -46,7 +46,7 @@ export default function Index() {
           <img
             className="mx-auto object-center py-12"
             width="80%"
-            src="https://raw.githubusercontent.com/nunomaduro/pest/master/art/logo.gif"
+            src="logo.gif"
           />
           <p className="py-6 ">Testing can be more productive than you think.</p>
 
