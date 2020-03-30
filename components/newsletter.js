@@ -14,11 +14,15 @@ export default function Newsletter() {
         render={({ subscribe, status, message }) => {
           switch (status) {
             case 'sending':
-              return <em>Sending request...</em>;
+              return <em>Subscribing...</em>;
             case 'success':
               return <em>Thanks! We will get in touch soon...</em>;
             case 'error':
               const replaceEnd = answer => {
+                if (typeof answer !== "string") {
+                  return "Your firewall or privacy protection are blocking this operation. Subscribe using this form: <a href='https://eepurl.com/dtSda9'>https://eepurl.com/dtSda9</a>";
+                }
+
                 const end = 'to list nunomaduro.com.';
                 const index = answer.indexOf(end);
                 return answer.substring(0, index != -1 ? index : answer.length);
