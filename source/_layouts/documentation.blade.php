@@ -13,7 +13,7 @@
 
         <div class="relative DocSearch-content w-full lg:w-3/5 break-words pb-16 lg:pl-4" v-pre>
             @yield('content')
-            <div class="absolute top-0 right-0 h-8 w-100 pt-3">
+            <div class="absolute top-0 right-0 h-8 w-100 pt-3 hidden md:block">
                 <a href="https://github.com/pestphp/website/edit/master/source{{ $page->getPath() }}.md">Edit this page →</a>
             </div>
         </div>
