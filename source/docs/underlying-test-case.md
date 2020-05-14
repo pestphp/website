@@ -26,7 +26,7 @@ can use the `uses` function.
 
 ### `uses()`
 
-The `uses` function bounds a class and/or traits to test files.
+The `uses` function binds a class and/or trait to the test files.
 
 ```php
 <?php
