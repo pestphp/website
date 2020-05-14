@@ -61,8 +61,6 @@ You can now remove the `uses(..)` in all your tests in `Controller` directory.
 
 ## Helpers
 
-In previous example, `$this` is bind to WebTestCase, but your IDE may not be aware of it. 
-
 To get autocomplete on assertion provided by WebTestCase, you could add an helper in `tests/Pest.php`:
 
 ```php
