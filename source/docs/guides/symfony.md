@@ -11,7 +11,7 @@ Pest was built to be framework agnostic, but as it's easily extendable, it works
 
 Now, in this guide, we are going to transform a Symfony test into a Pest test.
 
-A basic functionnal test in Symfony look like the following:
+A basic functional test in Symfony looks like the following:
 
 ```php
 <?php
@@ -33,7 +33,7 @@ class DefaultControllerTest extends WebTestCase
 }
 ```
 
-With Pest, the same test could be write like this:
+With Pest, the same test could be written like this:
 
 ```php
 <?php
