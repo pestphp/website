@@ -20,6 +20,7 @@ return [
         'children' => [
             'Laravel' => 'docs/guides/laravel',
             'PHPUnit' => 'docs/guides/phpunit',
+            'Symfony' => 'docs/guides/symfony',
         ],
     ],
 ];
