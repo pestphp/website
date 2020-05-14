@@ -40,5 +40,5 @@ it('has home')
     ->assertSee('Hello World');
 ```
 
-Next section: [Exceptions & Errors →](/docs/exceptions-and-errors)
+Next section: [Custom Helpers →](/docs/helpers)
 

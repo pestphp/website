@@ -9,6 +9,7 @@ return [
             'Assertions' => 'docs/assertions',
             'Setup And Teardown' => 'docs/setup-and-teardown',
             'Higher Order Tests' => 'docs/higher-order-tests',
+            'Custom Helpers' => 'docs/helpers',
             'Exceptions & Errors' => 'docs/exceptions-and-errors',
             'Groups Of Tests' => 'docs/groups',
             'Skipping Tests' => 'docs/skipping-tests',
