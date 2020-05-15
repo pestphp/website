@@ -44,6 +44,8 @@ uses(TestCase::class)->in('Feature');
 uses(TestCase::class, RefreshDatabase::class)->in(__DIR__);
 ```
 
+## `tests/Pest.php`
+
 Please consider creating a file with the name `tests/Pest.php` on the
 root directory of your tests folder. No worries, that file
 is autoloaded automatically.
