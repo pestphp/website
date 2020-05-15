@@ -51,7 +51,7 @@ tests
 phpunit.xml
 ```
 
-Inside this `Emails.php` you just have to use the `dataset()` function.
+Inside this `Emails.php` you just have to use the `dataset()` function:
 ```php
 <?php
 
@@ -61,7 +61,7 @@ dataset('emails', [
 ]);
 ```
 
-In your test, you can use the `dataset` name to reuse your dataset.
+In your test, you can use the `dataset` name to reuse your dataset:
 ```php
 it('has emails', function ($email) {
     assertNotEmpty($email)
@@ -74,7 +74,7 @@ it('has emails', function ($email) {
 
 In both **inline** and **external** approaches, you may need to serve your
 data with PHP's generators to allow you to work with very large datasets
-while keeping memory usage low.
+while keeping memory usage low:
 
 ```php
 dataset('emails', function () {
