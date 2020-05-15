@@ -7,7 +7,7 @@ section: content
 
 # Custom helpers
 
-While Pest is a very powerful out-of-box, you may have some testing code specific to your
+While Pest is very powerful out-of-the-box, you may have some testing code specific to your
 project that you don't want to repeat in every test.
 
 Creating custom helpers can improve readability and reduce the amount of code of your test suite.
@@ -35,10 +35,10 @@ function actingAs(Authenticatable $user, string $driver = null): TestCase
 }
 ```
 
-> **TIP**: use the `test()` function without any arguments to get
+> **TIP**: use the `test` function without any arguments to get
 access to the current test case.
 
-Now, you are can use the `actingAs` helper in your tests:
+Now, you can use the `actingAs` helper in your tests:
 ```php
 <?php
 
