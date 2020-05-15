@@ -10,7 +10,7 @@ section: content
 Pest also provides support for **higher order tests**, which are shortcuts for performing
 common actions while writing your tests.
 
-The best way of thinking about this is: If you
+The best way to think about this is: If you
 don't provide a closure, the chained methods are going to create a closure for
 you. Here is the most basic example:
 
@@ -21,15 +21,15 @@ test('true is true')->assertTrue(true);
 The code above is equivalent to:
 ```php
 test('true is true', function () {
-    $this->assetTrue();
+    $this->assertTrue();
 });
 ```
 
-Pest will properly delegate to any given method and its arguments ot the test itself.
+Pest will properly delegate to any given method and its arguments of the test itself.
 
-> **Warning**:  The usage of runtime helpers in Laravel, like `route`, won't work with higher-order tests.
+> **Warning**:  You can't access runtime helpers in Laravel, like `route`, with higher-order tests.
 
-Just like tests, same rules are applied to global functions like `beforeEach` or `afterEach`. Let's
+The exact same rules apply to global functions like `beforeEach` or `afterEach`. Let's
 take a look at an example using the Laravel Framework:
 
 ```
