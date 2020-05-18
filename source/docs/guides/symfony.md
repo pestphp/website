@@ -16,7 +16,9 @@ First, create the `tests/Pest.php` file, and add the following code:
 ```php
 <?php
 
-uses(\Symfony\Bundle\FrameworkBundle\Test\WebTestCase::class)->in('Controller');
+use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
+
+uses(WebTestCase::class)->in('Controller');
 ```
 
 This tells Pest that all tests under the `Controller` directory will use the` WebTestCase`.
