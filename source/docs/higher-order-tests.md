@@ -21,7 +21,7 @@ test('true is true')->assertTrue(true);
 The code above is equivalent to:
 ```php
 test('true is true', function () {
-    $this->assertTrue();
+    $this->assertTrue(true);
 });
 ```
 
