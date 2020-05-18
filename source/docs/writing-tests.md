@@ -19,30 +19,48 @@ tests
 phpunit.xml
 ```
 
-Often we recommend you place your tests in files suffixed 
-by `..Test.php`. Inside those files, all you need in is a
-test function which runs a test:
+We often recommend you to place your tests in files suffixed 
+by `..Test.php`. All you need inside those files is a
+function which runs your test:
 
 ```
 <?php
-
-it('has home', function () {
+test('has home', function () {
     // ..
 });
 
 // or
-test('has home', function () {
+it('has home', function () {
     // ..
 });
 ```
 
-Now, for the remainder of this section, we are going to see the API reference
-of the available functions to create tests.
+Now, on to the API reference. Pest offers you two functions to write your tests: `test()` & `it()`.
+Use the one that best fits your test naming convention, or both. They share the same behavior & syntax:
+
+### `test()`
+
+The `test` function adds the given closure as test. The first argument is the test
+description; the second argument is a closure that contains the test expectations:
+
+```php
+test('asserts true is true', function () {
+    assertTrue(true);
+});
+```
+
+> **Note**: The assertion above could also be written with `$this->assertTrue(true);`, because the test
+closure is bound to the underlying TestCase class.
+
+Here is what this example test will return:
+```bash
+✓ asserts true is true
+```
 
 ### `it()`
 
 The `it` function adds the given closure as test. The first argument is the test
-description; the second argument is a closure that contains the test expectations.
+description; the second argument is a closure that contains the test expectations:
 
 ```php
 it('asserts true is true', function () {
@@ -50,18 +68,12 @@ it('asserts true is true', function () {
 });
 ```
 
-> **Note**: The assertion above could be writen also with `$this->assertTrue(true);`, because the test
-closure is bound to the underlying TestCase class.
-
-### `test()`
-
-The `test` function is an alias of **it** and it adds the given closure as test. The first argument is the test
-description; the second argument is a closure that contains the test expectations.
-
-```php
-test('asserts false is false', function () {
-    assertFalse(false);
-});
+Here is what this example test will return:
+```bash
+✓ it asserts true is true
 ```
+
+> **Note**: Notice how, when using the `it` function, your test name gets prepended with 'it' in the 
+returned description.
 
 Next section: [Underlying Test Case →](/docs/underlying-test-case)

@@ -14,12 +14,12 @@ The early access to **Pest is available to sponsors**: [github.com/sponsors/nuno
 
 Once you’ve subscribed to the GitHub sponsors, you should receive an email with an invitation to the private repository of Pest.
 
-1. Add the Pest private repository to your list of composer repositories.
+1. Add the Pest private repository to your list of composer repositories:
 ```bash
 composer config repositories.pest vcs https://github.com/pestphp/pest
 ```
 
-2. Make sure your PHPUnit dependency is `^9.0`.
+2. Make sure your PHPUnit dependency is `^9.0`:
 ```bash
 composer require phpunit/phpunit:"^9.0" --dev --update-with-dependencies
 ```
@@ -28,17 +28,17 @@ composer require phpunit/phpunit:"^9.0" --dev --update-with-dependencies
 you [download this file](https://github.com/pestphp/pest/blob/master/stubs/phpunit.xml) and
 place it on the root of your project.
 
-3. **If you are using Laravel**, make sure you Collision dependency is `^5.0`.
+3. **If you are using Laravel**, make sure you Collision dependency is `^5.0`:
 ```bash
 composer require nunomaduro/collision:"^5.0" --dev --update-with-dependencies
 ```
 
-4. Next, require **Pest**.
+4. Next, require **Pest**:
 ```bash
 composer require pestphp/pest --dev
 ```
 
-5. **If you are using Laravel**, install Pest in your test suite using the `pest:install` Artisan command.
+5. **If you are using Laravel**, install Pest in your test suite using the `pest:install` Artisan command:
 ```bash
 php artisan pest:install
 ```
