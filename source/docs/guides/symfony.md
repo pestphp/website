@@ -11,7 +11,7 @@ Pest was built to be framework agnostic, but as it's easily extendable, it works
 
 Now, in this guide, we are going to transform a Symfony test into a Pest test.
 
-First, create a `tests/Pest.php`, and add the following:
+First, create the `tests/Pest.php` file, and add the following code:
 
 ```php
 <?php
@@ -19,7 +19,7 @@ First, create a `tests/Pest.php`, and add the following:
 uses(\Symfony\Bundle\FrameworkBundle\Test\WebTestCase::class)->in('Controller');
 ```
 
-This tells to Pest that all tests under the `Controller` directory will use the` WebTestCase`.
+This tells Pest that all tests under the `Controller` directory will use the` WebTestCase`.
 
 A basic functional test in Symfony looks like the following:
 
@@ -49,7 +49,7 @@ With Pest, the same test could be written like this:
 <?php
 // tests/Controller/DefaultControllerTest.php
 
-it('test something', function() {
+test('something', function() {
     static::createClient()->request('GET', '/');
     $this->assertResponseIsSuccessful();
     $this->assertSelectorTextContains('h1', 'Hello World');
