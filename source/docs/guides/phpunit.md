@@ -102,3 +102,6 @@ it('has home page')
 
 This Pest test is equivalent to the PHPUnit test, and it only has 6 lines, down from the
 19 original lines. And most importantly, the test contains only what really matters.
+
+
+Next section: [Symfony →](/docs/guides/symfony)
