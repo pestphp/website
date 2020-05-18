@@ -11,12 +11,22 @@ Pest was built to be framework agnostic, but as it's easily extendable, it works
 
 Now, in this guide, we are going to transform a Symfony test into a Pest test.
 
+First, create a `tests/Pest.php`, and add the following:
+
+```php
+<?php
+
+uses(\Symfony\Bundle\FrameworkBundle\Test\WebTestCase::class)->in('Controller');
+```
+
+This tells to Pest that all tests under the `Controller` directory will use the` WebTestCase`.
+
 A basic functional test in Symfony looks like the following:
 
 ```php
 <?php
 
-namespace App\Tests;
+namespace App\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
@@ -37,8 +47,7 @@ With Pest, the same test could be written like this:
 
 ```php
 <?php
-
-uses(\Symfony\Bundle\FrameworkBundle\Test\WebTestCase::class);
+// tests/Controller/DefaultControllerTest.php
 
 it('test something', function() {
     static::createClient()->request('GET', '/');
@@ -46,15 +55,3 @@ it('test something', function() {
     $this->assertSelectorTextContains('h1', 'Hello World');
 });
 ```
-
-If you organize your tests following your app directories, you can automatically add the `uses(WebTestCase::class)` in all
-your ControllerTests located in folder `tests/Controller` by adding the following in `tests/Pest.php`:
-
-```php
-<?php
-// tests/Pest.php
-
-uses(\Symfony\Bundle\FrameworkBundle\Test\WebTestCase::class)->in('Controller');
-```
-
-You can now remove the `uses(..)` in all your tests in `Controller` directory.
