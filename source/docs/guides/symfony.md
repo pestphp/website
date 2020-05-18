@@ -21,7 +21,7 @@ use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 uses(WebTestCase::class)->in('Controller');
 ```
 
-This tells Pest that all tests under the `Controller` directory will use the` WebTestCase`.
+This tells Pest that all tests under the `Controller` directory will use the `WebTestCase`.
 
 A basic functional test in Symfony looks like the following:
 
