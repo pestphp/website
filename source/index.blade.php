@@ -35,7 +35,7 @@
                         </a>
                      </div>
                      <div class="mt-3 sm:mt-0 sm:ml-3">
-                        <a target="_blank" href="https://github.com/sponsors/nunomaduro" style="color: background-color: #ffe7ff" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-purple-700 bg-purple-100 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:shadow-outline focus:border-purple-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                        <a target="_blank" href="https://github.com/pestphp/pest" style="color: background-color: #ffe7ff" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-purple-700 bg-purple-100 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:shadow-outline focus:border-purple-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
                         Source Code
                         </a>
                      </div>
@@ -45,7 +45,7 @@
          </div>
       </div>
       <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-         <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="/assets/img/hero.png" alt="" />
+         <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="/assets/img/hero.jpg" alt="" />
       </div>
    </div>
    <div class="bg-gray-50 relative overflow-hidden lg:py-6 text-center lg:text-left">
@@ -164,8 +164,8 @@
                      </dt>
                      <dd class="mt-2">
                         <p class="text-base leading-6 text-gray-500">
-                           Not yet — the early access to the beta is closed to sponsors, but the project will be open-sourced
-                           once the author reaches<a href="https://github.com/sponsors/nunomaduro"> 75 GitHub Sponsors</a>.
+                           Yes — Pest was created by <a href="https://twitter.com/enunomaduro">Nuno Maduro</a> under the <a href="https://github.com/sponsorware/docs">Sponsorware license</a>. It
+                           got open-sourced early this year and is now licensed under the <a href="https://opensource.org/licenses/MIT">MIT license</a>.
                         </p>
                      </dd>
                   </div>
