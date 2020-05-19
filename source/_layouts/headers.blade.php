@@ -7,7 +7,7 @@
 <meta property="og:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}"/>
 <meta property="og:description" content="{{ $page->description ?? $page->siteDescription }}"/>
 <meta property="og:url" content="{{ $page->getUrl() }}"/>
-<meta property="og:image" content="https://pestphp.com/assets/img/og.png"/>
+<meta property="og:image" content="https://pestphp.com/assets/img/og.jpg"/>
 <meta property="og:type" content="website"/>
 
 <meta name="twitter:card" content="summary_large_image">
