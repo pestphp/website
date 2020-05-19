@@ -18,7 +18,7 @@ composer require phpunit/phpunit:"^9.0" --dev --update-with-dependencies
 you [download this file](https://github.com/pestphp/pest/blob/master/stubs/phpunit.xml) and
 place it on the root of your project.
 
-2. **If you are using Laravel**, make sure you Collision dependency is `^5.0`:
+2. **If you are using Laravel**, make sure your Collision dependency is `^5.0`:
 ```bash
 composer require nunomaduro/collision:"^5.0" --dev --update-with-dependencies
 ```
