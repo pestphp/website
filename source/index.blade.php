@@ -48,6 +48,7 @@
          <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="/assets/img/hero.jpg" alt="" />
       </div>
    </div>
+
    <div class="bg-gray-50 relative overflow-hidden lg:py-6 text-center lg:text-left">
       <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
          <div class="relative mt-12 sm:mt-16 lg:mt-24">
@@ -83,6 +84,33 @@
                   <img class="relative mx-auto" width="490" src="/assets/img/test.png" alt="" />
                </div>
             </div>
+         </div>
+      </div>
+   </div>
+   <div class="pt-12 bg-gray-50 overflow-hidden md:pt-14 lg:pt-24">
+      <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+         <div class="relative">
+            <blockquote class="mt-4">
+               <div class="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900 text-raleway">
+                  <p>
+                     &ldquo;Pest is minimal, distraction-free, and a joy to use.&rdquo;
+                  </p>
+               </div>
+               <footer class="mt-8">
+                  <div class="md:flex md:items-center md:justify-center">
+                     <div class="md:flex-shrink-0">
+                        <img class="mx-auto h-10 w-10 rounded-full" src="/assets/img/taylor.jpg" alt="" />
+                     </div>
+                     <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
+                        <div class="text-base leading-6 font-medium text-gray-900">Taylor Otwell</div>
+                        <svg style="color: #ff89ff" class="hidden md:block mx-1 h-5 w-5 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                           <path d="M11 0h3L9 20H6l5-20z" />
+                        </svg>
+                        <div class="text-base leading-6 font-medium text-gray-500">Creator of Laravel</div>
+                     </div>
+                  </div>
+               </footer>
+            </blockquote>
          </div>
       </div>
    </div>
