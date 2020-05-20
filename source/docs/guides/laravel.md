@@ -104,7 +104,7 @@ run the same test multiple times with different data.
 ## Traits
 
 As explained in the [Underlying Test Case](/docs/underlying-test-case) section, the usage
-of traits is Pest is possible with the `uses` function.
+of traits in Pest is possible with the `uses` function.
 
 ```
 <?php
