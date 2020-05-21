@@ -7,15 +7,15 @@ section: content
 
 # PHPUnit Guide
 
-Pest is built on top of PHPUnit, and because Pest is a **progressive testing framework**, you can
+Pest is built on top of PHPUnit, and since Pest is a **progressive testing framework**, you can
 have both PHPUnit classes and Pest test files in the same test suite.
 
-In other words, if you have followed the [PHPUnit](https://phpunit.de/) getting started guide, you really just
-have to install Pest on top of it - as referenced with the [installation guide](/docs/installation).
+In other words, if you have followed the [PHPUnit](https://phpunit.de/) *Getting Started* guide, you really just
+have to install Pest on top of it - as referenced in the [installation guide](/docs/installation).
 
 Now, in this guide, we are going to transform a PHPUnit test into a Pest test.
 
-> **Disclaimer**: PHPUnit is great! Pest is just an different API of creating tests.
+> **Disclaimer**: PHPUnit is great! Pest just provides a different API to create tests.
 
 Let's take this PHPUnit test from the [Laravel.io website](https://laravel.io):
 ```php
@@ -45,7 +45,7 @@ Looking at this code, only 2 things are important:
 - There is a **home page**
 - When users visit that home page they **see** "Laravel.io" and  "The Laravel Community Portal".
 
-So let's put what really matters in our test with Pest:
+So let's put only what really matters into our Pest test:
 ```php
 <?php
 
@@ -79,8 +79,8 @@ it('has home page')
 ```
 
 Finally, the [Underlying Test Case](docs/underlying-test-case/) of this test
-is `TestCase` and or test also uses the `DatabaseMigrations` of Laravel. So
-let's put those in our `tests/Pest.php` file:
+is `TestCase` and our test also uses Laravel's `DatabaseMigrations`. So
+let's move those in our `tests/Pest.php` file:
 ```php
 <?php
 
@@ -90,7 +90,7 @@ use Illuminate\Foundation\Testing\DatabaseMigrations;
 uses(TestCase::class, DatabaseMigrations::class)->in('Feature');
 ```
 
-Let's update our test was we no longer need those `uses`:
+Let's cleanup our test, now that we no longer need those local `uses`:
 ```php
 <?php
 
@@ -100,8 +100,8 @@ it('has home page')
     ->see('The Laravel Community Portal');
 ```
 
-This Pest test is equivalent to the PHPUnit test, and it only has 6 lines, down from the
-19 original lines. And most importantly, the test contains only what really matters.
+This Pest test is equivalent to the PHPUnit one, and it only has 6 lines of code, down from the
+19 original lines. And most importantly, the test now contains only what really matters.
 
 
 Next section: [Symfony →](/docs/guides/symfony)
