@@ -7,14 +7,14 @@ section: content
 
 # Laravel Guide
 
-Pest was built with Laravel in mind. In this guide, we are going
+Although Pest is framework agnostic, it was built with Laravel in mind. In this guide, we are going
 to see how can you create tests with the elegance you expect, and
 with the convenience you love.
 
 Once you [install Pest](/docs/installation) in your Laravel application, and because Pest is a **progressive testing framework**,
 your current test suite will still work, even if you run it with the `./vendor/bin/pest` console command.
 
-Now, let's get started by taking a look at the default test suite in Laravel:
+Now, let's get started by taking a look at Laravel's default test suite:
 
 ```bash
 - tests
@@ -32,21 +32,21 @@ First, let's run the `pest:install` artisan command:
 php artisan pest:install
 ```
 
-This command will create the `Pest.php` file with the contents:
+This command will create the `Pest.php` file with the following code:
 ```php
 <?php
 
 uses(Tests\TestCase::class)->in('Feature');
 ```
 
-Next, let's migrate the `tests/Unit/ExampleTest.php`:
+Next, let's migrate the `tests/Unit/ExampleTest.php` file to Pest:
 ```php
 <?php
 
 test('basic')->assertTrue(true);
 ```
 
-and the `tests/Feature/ExampleTest.php`:
+And now, the `tests/Feature/ExampleTest.php` file:
 ```php
 <?php
 
@@ -56,7 +56,7 @@ it('has welcome page')
 ```
 
 And that's it! You should now have a fresh Laravel installation with
-a test suite in Pest.
+a Pest test suite.
 
 ---
 
@@ -64,25 +64,25 @@ a test suite in Pest.
 
 ### `pest:install`
 
-The `pest:install` Artisan command creates the `test/Pest.php` file in your tests folder.
+The `pest:install` Artisan command creates the `test/Pest.php` file in your tests folder:
 
 ```
 php artisan pest:install
 ```
 
 As described on the [Underlying Test Case](/docs/underling-test-case) section,
-the `Pest.php` is the place where all your `uses` should live.
+the `Pest.php` file is the place where all your `uses` should live.
 
 ### `pest:test`
 
-The `pest:test <name>` Artisan command creates a new test in the `tests/Feature` folder.
+The `pest:test <name>` Artisan command creates a new test in the `tests/Feature` folder:
 
 ```
 php artisan pest:test UsersTest
 ```
 
-Optionally, you can provide the option `--unit` to create the
-given test under the `tests/Unit` folder.
+Optionally, you can provide the `--unit` option to create the
+given test under the `tests/Unit` folder:
 
 ```
 php artisan pest:test UsersTest --unit
@@ -90,13 +90,13 @@ php artisan pest:test UsersTest --unit
 
 ### `pest:dataset`
 
-The `pest:dataset` Artisan command creates a new dataset in the `tests/Datasets` folder.
+The `pest:dataset` Artisan command creates a new dataset in the `tests/Datasets` folder:
 
 ```
 php artisan pest:dataset Emails
 ```
 
-As detailed on the [Datasets](/docs/datasets) section, datasets allows you to
+As detailed on the [Datasets](/docs/datasets) section, datasets allow you to
 run the same test multiple times with different data.
 
 ---
@@ -104,7 +104,7 @@ run the same test multiple times with different data.
 ## Traits
 
 As explained in the [Underlying Test Case](/docs/underlying-test-case) section, the usage
-of traits in Pest is possible with the `uses` function.
+of traits in Pest is possible with the `uses` function:
 
 ```
 <?php
@@ -122,6 +122,6 @@ it('has users')->assertDatabaseHas('users', [
 ```
 
 Keep in mind that you can avoid the `uses(RefreshDatabase::class)`
-line, adding that same line to your `Pest.php` file.
+line in your test by moving that same line to your `Pest.php` file.
 
 Next section: [PHPUnit →](/docs/guides/phpunit)
