@@ -21,7 +21,7 @@ Of course, you can also assign a test to multiple groups:
 ```php
 it('has home', function () {
     // ..
-})->group(['integration', 'browser']);
+})->group('integration', 'browser');
 ```
 
 Sometimes, you may want to assign an entire file to a group:
