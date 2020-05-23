@@ -19,9 +19,9 @@ tests
 phpunit.xml
 ```
 
-We often recommend you to place your tests in files suffixed 
-by `..Test.php`. All you need inside those files is a
-function which runs your test:
+To write a test, create a file in the `Unit` or `Feature` directory,
+and make sure its filename ends with the `..Test.php` suffix.
+Then, all you need inside this file is a function which runs your test:
 
 ```
 <?php
@@ -34,6 +34,9 @@ it('has home', function () {
     // ..
 });
 ```
+
+> **Note**: Pest will only run a test file if its name ends with the suffix set in your `phpunit.xml`.
+
 
 Now, on to the API reference. Pest offers you two functions to write your tests: `test()` & `it()`.
 Use the one that best fits your test naming convention, or both. They share the same behavior & syntax:
