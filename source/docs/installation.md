@@ -28,12 +28,17 @@ composer require nunomaduro/collision:"^5.0" --dev --update-with-dependencies
 composer require pestphp/pest --dev
 ```
 
-4. **If you are using Laravel**, install Pest in your test suite using the `pest:install` Artisan command:
+4. **If you are using Lumen**, you must register the `PestServiceProvider` in `bootstrap/app.php`:
+```php
+$app->register(Pest\Laravel\PestServiceProvider::class);
+```
+
+5. **If you are using Laravel or Lumen**, install Pest in your test suite using the `pest:install` Artisan command:
 ```bash
 php artisan pest:install
 ```
 
-5. Finally, you can run Pest directly from the command line:
+6. Finally, you can run Pest directly from the command line:
 ```bash
 ./vendor/bin/pest
 ```
