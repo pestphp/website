@@ -15,7 +15,7 @@
 - Follow us on Twitter: **[@pestphp »](https://twitter.com/pestphp)**
 - Join us on the Discord Server: **[discord.gg/bMAJv82 »](https://discord.gg/bMAJv82)**
 
-> **Note:** This repository contains the website of Pest. If you want to start testing your application with Pest, visit the main [Pest repository](https://github.com/pestphp/pest).
+> **Note:** This repository contains Pest's website & documentation. If you want to start testing your application with Pest, visit the main [Pest repository](https://github.com/pestphp/pest).
 
 Pest was created by **[Nuno Maduro](https://twitter.com/enunomaduro)** under the **[Sponsorware license](https://github.com/sponsorware/docs)**. It got open-sourced and is now licensed under the **[MIT license](https://opensource.org/licenses/MIT)**.
 
