@@ -122,6 +122,6 @@ it('has users')->assertDatabaseHas('users', [
 ```
 
 Keep in mind that you can avoid the `uses(RefreshDatabase::class)`
-line in your test by moving that same line to your `Pest.php` file.
+line in your test by [binding it](/docs/underlying-test-case) in your `Pest.php` file.
 
 Next section: [PHPUnit →](/docs/guides/phpunit)
