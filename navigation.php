@@ -24,4 +24,10 @@ return [
             'Symfony' => 'docs/guides/symfony',
         ],
     ],
+    'Get involved' => [
+        'children' => [
+            'Community' => 'docs/community',
+            'Contribute' => 'docs/contribute',
+        ],
+    ],
 ];
