@@ -13,7 +13,7 @@ Come gather 'round our community channels and meet other Pest users.
 
 Meet and chat with dozens of other Pest users in real-time on our Discord server. Submit your ideas and suggestions, ask for help, share the cool stuff you made or simply follow the latest Pest announcements. We are waiting for you!
 
-[Join our Discord channel](https://discord.com/channels/705126275232038944/708426222668873750)
+[Join our Discord channel](https://discord.gg/bMAJv82)
 
 
 
