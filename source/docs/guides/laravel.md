@@ -7,11 +7,11 @@ section: content
 
 # Laravel Guide
 
-Although Pest is framework agnostic, it was built with Laravel in mind. In this guide, we are going
-to see how can you create tests with the elegance you expect, and
-with the convenience you love.
+Although Pest is framework agnostic, it was built with Laravel in mind. In this guide,
+we will see how you can create tests with the elegance you expect, and
+the convenience you love.
 
-Once you [install Pest](/docs/installation) in your Laravel application, and because Pest is a **progressive testing framework**,
+First, [install Pest](/docs/installation) in your Laravel application. Since Pest is a **progressive testing framework**,
 your current test suite will still work, even if you run it with the `./vendor/bin/pest` console command.
 
 Now, let's get started by taking a look at Laravel's default test suite:
@@ -55,7 +55,7 @@ it('has welcome page')
     ->assertStatus(200);
 ```
 
-And that's it! You should now have a fresh Laravel installation with
+That's it! You should now have a fresh Laravel installation with
 a Pest test suite.
 
 ---
@@ -123,5 +123,14 @@ it('has users')->assertDatabaseHas('users', [
 
 Keep in mind that you can avoid the `uses(RefreshDatabase::class)`
 line in your test by [binding it](/docs/underlying-test-case) in your `Pest.php` file.
+
+---
+
+> **Note:** To run Pest on Lumen, you must first register the PestServiceProvider in bootstrap/app.php:
+
+```
+$app->register(Pest\Laravel\PestServiceProvider::class);
+```
+
 
 Next section: [PHPUnit →](/docs/guides/phpunit)
