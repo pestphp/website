@@ -57,3 +57,5 @@ test('something', function() {
     $this->assertSelectorTextContains('h1', 'Hello World');
 });
 ```
+
+Next section: [Community →](/docs/community)
