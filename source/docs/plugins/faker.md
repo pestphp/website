@@ -21,9 +21,27 @@ This will add the following new global functions for your tests.
 
 The `faker()` function will create an instance of the Faker generator with the default locale (*en_US*).
 
+```php
+it('generates a name using faker', function () {
+    $name = faker()->name;
+    
+    assertIsString($name);
+});
+```
+
 ### `fakerWithLocale()`
 
 The `fakerWithLocale()` function allows you to specify the locale that is used when
 creating the instance of the Faker generator.
+
+```php
+it('generates a name using fakerWithLocale', function () {
+    $name = fakerWithLocale('fr_FR')->name;
+    
+    assertIsString($name);
+});
+```
+
+Remember, for the full list of available Faker methods, please refer to the [Faker documentation](https://github.com/fzaninotto/Faker#formatters).
 
 Next section: [Community →](/docs/community)
