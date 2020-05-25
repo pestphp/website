@@ -17,8 +17,23 @@
                 <a href="https://github.com/pestphp/website/edit/master/source{{ $page->getPath() }}.md">Edit this page →</a>
             </div>
         </div>
-
-
     </div>
 </section>
 @endsection
+
+@push('meta')
+@if ($page->docsearchApiKey && $page->docsearchIndexName)
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
+@endif
+
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&display=swap" rel="stylesheet">
+@endpush
+
+@push('scripts')
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+<script>
+    document.querySelectorAll('pre code').forEach((block) => {
+    hljs.initHighlightingOnLoad();
+});
+</script>
+@endpush

@@ -5,21 +5,31 @@
 
         @stack('meta')
 
+        <script
+            src="https://unpkg.com/jquery@3.5.1/dist/jquery.min.js"
+            crossorigin="anonymous" async></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap" rel="stylesheet">
+        <style type="text/css">
+            .text-raleway {
+                font-family: 'Raleway', sans-serif;
+            }
+            .bg-pest {
+                background: url('/assets/img/pest.png');
+            }
+        </style>
+
         @if ($page->production)
             <!-- Insert analytics code here -->
         @endif
 
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
-
         <style>
             html {
-                font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+                font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",
+                Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji",
+                "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
             }
         </style>
-
-        @if ($page->docsearchApiKey && $page->docsearchIndexName)
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
-        @endif
     </head>
 
     <body>
