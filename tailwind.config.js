@@ -18,6 +18,11 @@ module.exports = {
         sans: [
           'Nunito Sans', ...defaultTheme.fontFamily.sans
         ],
+        system:[
+          `system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",
+          Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji",
+          "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"`
+        ],
         mono: [
           'monospace',
         ],
@@ -32,6 +37,7 @@ module.exports = {
         '8xl': '88rem'
       },
       spacing: {
+        '1.5': '0.375rem',
         '7': '1.75rem',
         '9': '2.25rem'
       },
