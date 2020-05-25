@@ -1,9 +1,22 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
+  purge: {
+      content: [
+        './source/**/*.html',
+        './source/**/*.php',
+        './source/**/*.js'
+      ],
+    options: {
+        defaultExtractor: (content) => content.match(/[\w-/.:]+(?<!:)/g) || [],
+        whitelistPatterns: [/-active$/, /-enter$/, /-leave-to$/, /show$/],
+    },
+  },
   theme: {
     extend: {
       fontFamily: {
         sans: [
-          'Nunito Sans'
+          'Nunito Sans', ...defaultTheme.fontFamily.sans
         ],
         mono: [
           'monospace',
@@ -33,10 +46,10 @@ module.exports = {
       'lg': '1.125rem',
       'xl': '1.25rem',
       '2xl': '1.5rem',
-      '3xl': '1.75rem',
+      '3xl': '1.875rem',
       '4xl': '2.125rem',
       '5xl': '2.625rem',
-      '6xl': '10rem',
+      '6xl': '4rem',
     },
   },
   variants: {
@@ -45,6 +58,7 @@ module.exports = {
     width: ['responsive', 'focus']
   },
   plugins: [
+    require('@tailwindcss/ui'),
     function({ addUtilities }) {
       const newUtilities = {
         '.transition-fast': {
