@@ -12,7 +12,7 @@
                   <div>
                      <div class="flex w-full md:w-auto">
                         <a href="/" title="{{ $page->siteName }} home">
-                           <img class="h-10 w-auto md:h-15 lg:h-20" src="/assets/img/logo.gif" alt="{{ $page->siteName }} logo">
+                           <img class="h-10 w-auto md:h-15 lg:h-20" src="/assets/img/small-logo.gif" alt="{{ $page->siteName }} logo">
                         </a>
                      </div>
                   </div>
@@ -45,7 +45,11 @@
          </div>
       </div>
       <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-         <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="/assets/img/hero.jpg" alt="" />
+         <picture>
+            <source srcset="/assets/img/webp/hero.webp" type="image/webp">
+            <source srcset="/assets/img/hero.jpg" type="image/jpeg">
+            <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="/assets/img/hero.jpg" alt="" />
+          </picture>
       </div>
    </div>
 
@@ -64,7 +68,11 @@
                <div class="col-start-1 mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
                   <div class="bg-pest absolute top-0 left-0 -mt-12 hidden lg:block" style="z-index: 0; width: 400px; height: 531px; opacity: 10%">
                   </div>
-                  <img class="relative mx-auto" width="490" src="/assets/img/collision.png" alt="" />
+                  <picture>
+                     <source srcset="/assets/img/webp/collision.webp" type="image/webp">
+                     <source srcset="/assets/img/collision.png" type="image/png">
+                        <img class="relative mx-auto" width="490" src="/assets/img/collision.png" alt="" />
+                   </picture>
                </div>
             </div>
          </div>
@@ -81,7 +89,11 @@
                <div class="mt-10 -mx-4 relative lg:mt-0 col-start-2">
                   <div class="bg-pest absolute top-0 right-0 -mt-12 hidden lg:block" style="z-index: 0; width: 400px; height: 531px; opacity: 10%">
                   </div>
-                  <img class="relative mx-auto" width="490" src="/assets/img/test.png" alt="" />
+                  <picture>
+                     <source srcset="/assets/img/webp/test.webp" type="image/webp">
+                     <source srcset="/assets/img/test.png" type="image/png">
+                     <img class="relative mx-auto" width="490" src="/assets/img/test.png" alt="" />
+                   </picture>
                </div>
             </div>
          </div>
