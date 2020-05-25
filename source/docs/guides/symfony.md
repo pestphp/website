@@ -58,4 +58,4 @@ test('something', function() {
 });
 ```
 
-Next section: [Community →](/docs/community)
+Next section: [Faker →](/docs/plugins/faker)

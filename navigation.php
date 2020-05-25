@@ -24,6 +24,11 @@ return [
             'Symfony' => 'docs/guides/symfony',
         ],
     ],
+    'Plugins' => [
+        'children' => [
+            'Faker' => 'docs/plugins/faker',
+        ]
+    ],
     'Get involved' => [
         'children' => [
             'Community' => 'docs/community',
