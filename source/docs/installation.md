@@ -15,7 +15,7 @@ composer require phpunit/phpunit:"^9.0" --dev --update-with-dependencies
 ```
 
 > **Pest** will use your current `phpunit.xml`. If you don't have one, make you sure
-you [download this file](https://github.com/pestphp/pest/blob/master/phpunit.xml) and
+you [download this file](https://github.com/pestphp/pest/blob/master/stubs/Laravel/phpunit.xml) and
 place it on the root of your project.
 
 2. **If you are using Laravel**, make sure your Collision dependency is `^5.0`:
