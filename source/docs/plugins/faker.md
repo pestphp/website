@@ -15,7 +15,7 @@ Install the plugin using Composer:
 composer require pestphp/pest-plugin-faker --dev
 ```
 
-This will add the following new global functions for your tests.
+This will add the following new global function for your tests.
 
 ### `faker()`
 
@@ -29,14 +29,12 @@ it('generates a name using faker', function () {
 });
 ```
 
-### `fakerWithLocale()`
-
-The `fakerWithLocale()` function allows you to specify the locale that is used when
+The `faker()` function also allows you to specify the locale that is used when
 creating the instance of the Faker generator.
 
 ```php
-it('generates a name using fakerWithLocale', function () {
-    $name = fakerWithLocale('fr_FR')->name;
+it('generates a name using faker with locale', function () {
+    $name = faker('fr_FR')->name;
     
     assertIsString($name);
 });
