@@ -1,10 +1,10 @@
 .nav-menu {
     @apply .-mt-12;
-    @apply .-mx-8;
+    @apply .-ml-8;
+    margin-right: -1.5rem;
     @apply .bg-gray-200;
     @apply .mb-8;
     @apply .pb-4;
-    @apply .pt-8;
     @apply .px-4;
     @apply .shadow;
     @apply .w-auto;
@@ -16,6 +16,7 @@
         @apply .border-b-0;
         @apply .mt-1;
         @apply .pl-0;
+        @apply .pt-8;
         @apply .pr-4;
         @apply .pt-0;
         @apply .shadow-none;
