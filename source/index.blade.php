@@ -183,7 +183,7 @@
                         </dt>
                         <dd class="mt-2">
                            <p class="text-base leading-6 text-cool-gray-500">
-                              To make your life easier. Pest is a testing framework built for humans — its simple,
+                              To make your life easier. Pest is a testing framework built for humans — it's simple,
                               minimal, and elegant. Writing tests doesn't have to be complicated.
                            </p>
                         </dd>
@@ -199,7 +199,7 @@
                         <dd class="mt-2">
                            <p class="text-base leading-6 text-cool-gray-500">
                               Yes — Pest is a progressive testing framework! You can have both PHPUnit test classes and Pest test files in the
-                              same test suite. Also, you can reuse your Test Case classes use them in Pest test files.
+                              same test suite. Also, you can reuse your Test Case classes in Pest test files.
                            </p>
                         </dd>
                      </dl>
