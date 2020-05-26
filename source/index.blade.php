@@ -20,12 +20,12 @@
             </div>
             <div class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 md:mt-16 lg:mt-20 xl:mt-28">
                <div class="text-center lg:text-left">
-                  <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-tight md:text-6xl">
+                  <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-cool-gray-900 sm:text-5xl sm:leading-tight md:text-6xl">
                      An elegant PHP
                      <br />
                      <span style="color: #65e6ae">Testing Framework</span>
                   </h2>
-                  <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                  <p class="mt-3 text-base text-cool-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                      Pest is a Testing Framework with a focus on simplicity. It was carefully crafted to bring the joy of testing to PHP.
                   </p>
                   <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
@@ -53,15 +53,15 @@
       </div>
    </div>
 
-   <div class="bg-gray-50 relative overflow-hidden lg:py-6 text-center lg:text-left">
+   <div class="bg-cool-gray-50 relative overflow-hidden lg:py-6 text-center lg:text-left">
       <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
          <div class="relative mt-12 sm:mt-16 lg:mt-24">
             <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                <div class="col-start-2 lg:col-start-2">
-                  <h4 class="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
+                  <h4 class="text-2xl leading-8 font-extrabold text-cool-gray-900 tracking-tight sm:text-3xl sm:leading-9">
                      Interfaces that people love
                   </h4>
-                  <p class="mt-3 text-lg leading-7 text-gray-500">
+                  <p class="mt-3 text-lg leading-7 text-cool-gray-500">
                      Pest gives you the most beautiful test reporting in the world, straight from the console! Also, the readable errors and stack traces make debugging lightning fast.
                   </p>
                </div>
@@ -79,10 +79,10 @@
          <div class="relative mt-12 sm:mt-16 lg:mt-24">
             <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                <div class="col-start-1">
-                  <h4 class="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
+                  <h4 class="text-2xl leading-8 font-extrabold text-cool-gray-900 tracking-tight sm:text-3xl sm:leading-9">
                      Testing can be more productive
                   </h4>
-                  <p class="mt-3 text-lg leading-7 text-gray-500">
+                  <p class="mt-3 text-lg leading-7 text-cool-gray-500">
                      Pest makes testing a breeze. Tests are easy to read and understand. Also, it's powered by PHPUnit — just drop your current PHPUnit test within Pest and it will just work. You won't have to change a thing.
                   </p>
                </div>
@@ -99,11 +99,11 @@
          </div>
       </div>
    </div>
-   <div class="pt-12 bg-gray-50 overflow-hidden md:pt-14 lg:pt-24">
+   <div class="pt-12 bg-cool-gray-50 overflow-hidden md:pt-14 lg:pt-24">
       <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
          <div class="relative">
             <blockquote class="mt-4">
-               <div class="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900 text-raleway">
+               <div class="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-cool-gray-900 text-raleway">
                   <p>
                      &ldquo;Pest is minimal, distraction-free, and a joy to use.&rdquo;
                   </p>
@@ -114,11 +114,11 @@
                         <img class="mx-auto h-10 w-10 rounded-full" src="/assets/img/taylor.jpg" alt="" />
                      </div>
                      <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
-                        <div class="text-base leading-6 font-medium text-gray-900">Taylor Otwell</div>
+                        <div class="text-base leading-6 font-medium text-cool-gray-900">Taylor Otwell</div>
                         <svg style="color: #ff89ff" class="hidden md:block mx-1 h-5 w-5 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
                            <path d="M11 0h3L9 20H6l5-20z" />
                         </svg>
-                        <div class="text-base leading-6 font-medium text-gray-500">Creator of Laravel</div>
+                        <div class="text-base leading-6 font-medium text-cool-gray-500">Creator of Laravel</div>
                      </div>
                   </div>
                </footer>
@@ -126,11 +126,11 @@
          </div>
       </div>
    </div>
-   <div class="py-12 bg-gray-50 overflow-hidden md:py-20 lg:py-24">
+   <div class="py-12 bg-cool-gray-50 overflow-hidden md:py-20 lg:py-24">
       <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
          <div class="relative">
             <blockquote class="mt-4">
-               <div class="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900 text-raleway">
+               <div class="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-cool-gray-900 text-raleway">
                   <p>
                      &ldquo;I wouldn’t be surprised if Pest becomes the default test runner in PHP for the near future.&rdquo;
                   </p>
@@ -141,11 +141,11 @@
                         <img class="mx-auto h-10 w-10 rounded-full" src="/assets/img/freek.jpg" alt="" />
                      </div>
                      <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
-                        <div class="text-base leading-6 font-medium text-gray-900">Freek Van der Herten</div>
+                        <div class="text-base leading-6 font-medium text-cool-gray-900">Freek Van der Herten</div>
                         <svg style="color: #ff89ff" class="hidden md:block mx-1 h-5 w-5 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
                            <path d="M11 0h3L9 20H6l5-20z" />
                         </svg>
-                        <div class="text-base leading-6 font-medium text-gray-500">Package Creator at Spatie</div>
+                        <div class="text-base leading-6 font-medium text-cool-gray-500">Package Creator at Spatie</div>
                      </div>
                   </div>
                </footer>
@@ -155,19 +155,19 @@
    </div>
    <div class="bg-white">
       <div class="max-w-screen-xl mx-auto pt-12 pb-16 sm:pt-16 sm:pb-20 px-4 sm:px-6 lg:pt-20 lg:pb-28 lg:px-8">
-         <h2 class="text-3xl leading-9 font-extrabold text-gray-900 text-center">
+         <h2 class="text-3xl leading-9 font-extrabold text-cool-gray-900 text-center">
             Commonly asked questions
          </h2>
-         <div class="mt-6 border-t-2 border-gray-100 pt-10">
+         <div class="mt-6 border-t-2 border-cool-gray-100 pt-10">
             <div class="md:grid md:grid-cols-2 md:gap-8">
                <div>
                   <div>
                      <dl>
-                        <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <dt class="text-lg leading-6 font-medium text-cool-gray-900">
                            Is Pest Laravel specific?
                         </dt>
                         <dd class="mt-2">
-                           <p class="text-base leading-6 text-gray-500">
+                           <p class="text-base leading-6 text-cool-gray-500">
                               No — Pest is framework agnostic and it can be used in any PHP
                               project. This project contains several Laravel examples
                               just because the author has a close relationship with
@@ -178,11 +178,11 @@
                   </div>
                   <div class="mt-12">
                      <dl>
-                        <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <dt class="text-lg leading-6 font-medium text-cool-gray-900">
                            Why should I use Pest?
                         </dt>
                         <dd class="mt-2">
-                           <p class="text-base leading-6 text-gray-500">
+                           <p class="text-base leading-6 text-cool-gray-500">
                               To make your life easier. Pest is a testing framework built for humans — its simple,
                               minimal, and elegant. Writing tests doesn't have to be complicated.
                            </p>
@@ -193,11 +193,11 @@
                <div class="mt-12 md:mt-0">
                   <div>
                      <dl>
-                        <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <dt class="text-lg leading-6 font-medium text-cool-gray-900">
                            Can I use my current PHPUnit Test Case classes?
                         </dt>
                         <dd class="mt-2">
-                           <p class="text-base leading-6 text-gray-500">
+                           <p class="text-base leading-6 text-cool-gray-500">
                               Yes — Pest is a progressive testing framework! You can have both PHPUnit test classes and Pest test files in the
                               same test suite. Also, you can reuse your Test Case classes use them in Pest test files.
                            </p>
@@ -206,11 +206,11 @@
                   </div>
                   <div  class="mt-12">
                      <dl>
-                        <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <dt class="text-lg leading-6 font-medium text-cool-gray-900">
                            Is Pest open source?
                         </dt>
                         <dd class="mt-2">
-                           <p class="text-base leading-6 text-gray-500">
+                           <p class="text-base leading-6 text-cool-gray-500">
                               Yes — Pest was created by <a href="https://twitter.com/enunomaduro">Nuno Maduro</a> under the <a href="https://github.com/sponsorware/docs">Sponsorware license</a>. It
                               got open-sourced early this year and is now licensed under the <a href="https://opensource.org/licenses/MIT">MIT license</a>.
                            </p>
@@ -237,7 +237,7 @@
                <div id="mc_embed_signup">
                   <form class="sm:flex validate" action="https://nunomaduro.us12.list-manage.com/subscribe/post?u=d5f11957aceb28cf3e4c30788&amp;id=0d8aed1043" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
                         <input
-                           class="appearance-none w-full px-5 py-3 border border-transparent text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out" placeholder="Enter your email"
+                           class="appearance-none w-full px-5 py-3 border border-transparent text-base leading-6 rounded-md text-cool-gray-900 bg-white placeholder-cool-gray-500 focus:outline-none focus:placeholder-cool-gray-400 transition duration-150 ease-in-out" placeholder="Enter your email"
                            type="email" value="" aria-label="Email address" name="EMAIL" class="required email" id="mce-EMAIL" required>
                      <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
                         <button type="submit" id="mc-embedded-subscribe" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-400 focus:outline-none focus:bg-indigo-400 transition duration-150 ease-in-out">
@@ -256,7 +256,7 @@
          </div>
       </div>
       <div class="mt-8">
-         <p class="text-center text-base leading-6 text-gray-400">
+         <p class="text-center text-base leading-6 text-cool-gray-400">
             &copy; 2020 Pest
          </p>
       </div>
