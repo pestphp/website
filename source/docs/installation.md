@@ -27,7 +27,7 @@ composer require nunomaduro/collision:"^5.0" --dev --update-with-dependencies
 ```bash
 composer require pestphp/pest --dev
 ```
-> **Note**: To install Pest without getting any errors youn must to have
+> **Note**: To install Pest without getting any errors you must have
 `"minimum-stability": "dev",` and `"prefer-stable": true,` in your `composer.json` file.
 
 
