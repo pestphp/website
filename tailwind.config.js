@@ -2,12 +2,14 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
   purge: {
+    enabled: true,
     content: [
       './source/**/*.html',
       './source/**/*.php',
       './source/**/*.js'
     ],
     options: {
+      defaultExtractor: (content) => content.match(/[\w-/.:]+(?<!:)/g) || [],
       whitelistPatterns: [/-active$/, /-enter$/, /-leave-to$/, /show$/],
     },
   },
@@ -36,25 +38,25 @@ module.exports = {
         '8xl': '88rem'
       },
       spacing: {
-        '2': '0.375rem',
+        '1.5': '0.375rem',
         '7': '1.75rem',
         '9': '2.25rem'
       },
       boxShadow: {
         'lg': '0 -1px 27px 0 rgba(0, 0, 0, 0.04), 0 4px 15px 0 rgba(0, 0, 0, 0.08)',
-      }
-    },
-    fontSize: {
-      'xs': '.8rem',
-      'sm': '.925rem',
-      'base': '1rem',
-      'lg': '1.125rem',
-      'xl': '1.25rem',
-      '2xl': '1.5rem',
-      '3xl': '1.875rem',
-      '4xl': '2.125rem',
-      '5xl': '2.625rem',
-      '6xl': '4rem',
+      },
+      fontSize: {
+        'xs': '.8rem',
+        'sm': '.925rem',
+        'base': '1rem',
+        'lg': '1.125rem',
+        'xl': '1.25rem',
+        '2xl': '1.5rem',
+        '3xl': '1.875rem',
+        '4xl': '2.125rem',
+        '5xl': '2.625rem',
+        '6xl': '4rem',
+      },
     },
   },
   variants: {
