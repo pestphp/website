@@ -83,7 +83,7 @@
                      Testing can be more productive
                   </h4>
                   <p class="mt-3 text-lg leading-7 text-cool-gray-500">
-                     Pest makes testing a breeze. Tests are easy to read and understand. Also, it's powered by PHPUnit — just drop your current PHPUnit test within Pest and it will just work. You won't have to change a thing.
+                     Pest makes testing a breeze. Tests are easy to read and understand. Also, it's powered by PHPUnit — just run your current PHPUnit test suite with Pest and it will just work. You won't have to change a thing.
                   </p>
                </div>
                <div class="mt-10 -mx-4 relative lg:mt-0 col-start-2">
