@@ -1,6 +1,6 @@
 @if ($url = is_string($item) ? $item : $item->url)
     <div class="mt-1">
-        <a href="{{ $page->url($url) }}" class="{{ $page->isActive($url) ? 'bg-gray-200 hover:bg-gray-300 text-gray-700 font-semibold' : '' }} group font-system font-normal flex items-center px-3 py-1.5 text-sm leading-5 text-gray-500 rounded-md hover:text-gray-900 hover:bg-gray-300 focus:bg-gray-300 transition ease-in-out duration-150">
+        <a href="{{ $page->url($url) }}" class="{{ $page->isActive($url) ? 'bg-cool-gray-200 hover:bg-cool-gray-300 text-cool-gray-700 font-semibold' : '' }} group font-system font-normal flex items-center px-3 py-1.5 text-sm leading-5 text-gray-500 rounded-md hover:text-gray-900 hover:bg-gray-300 focus:bg-gray-300 transition ease-in-out duration-150">
             <span class="truncate">
                 {{ $label }}
             </span>
@@ -8,7 +8,7 @@
     </div>
 @else
     <div class="mt-8 mb-2">
-        <h3 class="px-3 mb-0 text-xs leading-4 font-bold text-gray-400 uppercase tracking-wider">
+        <h3 class="px-3 mb-0 text-xs leading-4 font-bold text-cool-gray-400 uppercase tracking-wider">
           {{ $label }}
         </h3>
     </div>
