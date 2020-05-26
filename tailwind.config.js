@@ -2,14 +2,13 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
   purge: {
-      content: [
-        './source/**/*.html',
-        './source/**/*.php',
-        './source/**/*.js'
-      ],
+    content: [
+      './source/**/*.html',
+      './source/**/*.php',
+      './source/**/*.js'
+    ],
     options: {
-        defaultExtractor: (content) => content.match(/[\w-/.:]+(?<!:)/g) || [],
-        whitelistPatterns: [/-active$/, /-enter$/, /-leave-to$/, /show$/],
+      whitelistPatterns: [/-active$/, /-enter$/, /-leave-to$/, /show$/],
     },
   },
   theme: {
@@ -37,7 +36,7 @@ module.exports = {
         '8xl': '88rem'
       },
       spacing: {
-        '1.5': '0.375rem',
+        '2': '0.375rem',
         '7': '1.75rem',
         '9': '2.25rem'
       },
