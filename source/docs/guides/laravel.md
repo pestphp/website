@@ -70,7 +70,7 @@ The `pest:install` Artisan command creates the `test/Pest.php` file in your test
 php artisan pest:install
 ```
 
-As described on the [Underlying Test Case](/docs/underling-test-case) section,
+As described on the [Underlying Test Case](/docs/underlying-test-case) section,
 the `Pest.php` file is the place where all your `uses` should live.
 
 ### `pest:test`
