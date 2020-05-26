@@ -17,7 +17,6 @@
         "hasbin": "^1.2.3",
         "highlight.js": "^9.18.1",
         "laravel-mix": "^4.1.4",
-        "laravel-mix-purgecss": "^3.0.0",
         "node-cmd": "^3.0.0",
         "postcss-loader": "^3.0.0",
         "sass": "^1.26.5",
