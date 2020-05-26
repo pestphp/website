@@ -58,4 +58,8 @@ test('something', function() {
 });
 ```
 
+### Useful tip
+
+If you have set up your project using [symfony skeleton](https://github.com/symfony/skeleton), be sure that you have [BrowserKit component](https://symfony.com/doc/current/components/browser_kit.html) installed, so that you can successfully run the tests that interact with requests.
+
 Next section: [Faker →](/docs/plugins/faker)
