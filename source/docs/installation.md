@@ -9,7 +9,7 @@ section: content
 
 **Requires [PHP 7.3+](https://php.net/releases/)**
 
-1. First, your `composer.json` file must have these options: `"minimum-stability": "dev",` and `"prefer-stable": true,`.
+1. First, your *composer.json* file must have these options: `"minimum-stability": "dev",` and `"prefer-stable": true,`.
 
 2. Then, make sure your PHPUnit dependency is set to `^9.0`:
 
