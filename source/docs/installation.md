@@ -18,6 +18,9 @@ composer require phpunit/phpunit:"^9.0" --dev --update-with-dependencies
 you [download this file](https://github.com/pestphp/pest/blob/master/stubs/Laravel/phpunit.xml) and
 place it on the root of your project.
 
+> **Note**: To install Pest without getting any errors you must have
+`"minimum-stability": "dev",` and `"prefer-stable": true,` in your `composer.json` file.
+
 2. **If you are using Laravel**, make sure your Collision dependency is `^5.0`:
 ```bash
 composer require nunomaduro/collision:"^5.0" --dev --update-with-dependencies
@@ -27,9 +30,6 @@ composer require nunomaduro/collision:"^5.0" --dev --update-with-dependencies
 ```bash
 composer require pestphp/pest --dev
 ```
-> **Note**: To install Pest without getting any errors you must have
-`"minimum-stability": "dev",` and `"prefer-stable": true,` in your `composer.json` file.
-
 
 4. **If you are using Laravel**, install Pest in your test suite using the `pest:install` Artisan command:
 ```bash
