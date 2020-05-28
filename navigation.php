@@ -26,6 +26,7 @@ return [
     ],
     'Plugins' => [
         'children' => [
+            'Livewire' => 'docs/plugins/livewire',
             'Faker' => 'docs/plugins/faker',
         ]
     ],
