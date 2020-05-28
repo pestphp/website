@@ -9,7 +9,10 @@ section: content
 
 **Requires [PHP 7.3+](https://php.net/releases/)**
 
-1. Make sure your PHPUnit dependency is `^9.0`:
+1. First, your `composer.json` file must have these options: `"minimum-stability": "dev",` and `"prefer-stable": true,`.
+
+2. Then, make sure your PHPUnit dependency is set to `^9.0`:
+
 ```bash
 composer require phpunit/phpunit:"^9.0" --dev --update-with-dependencies
 ```
@@ -18,15 +21,12 @@ composer require phpunit/phpunit:"^9.0" --dev --update-with-dependencies
 you [download this file](https://github.com/pestphp/pest/blob/master/stubs/Laravel/phpunit.xml) and
 place it on the root of your project.
 
-> **Note**: To install Pest without getting any errors you must have
-`"minimum-stability": "dev",` and `"prefer-stable": true,` in your `composer.json` file.
-
-2. **If you are using Laravel**, make sure your Collision dependency is `^5.0`:
+3. **If you are using Laravel**, make sure your Collision dependency is set to `^5.0`:
 ```bash
 composer require nunomaduro/collision:"^5.0" --dev --update-with-dependencies
 ```
 
-3. Next, require **Pest**:
+4. Next, require **Pest**:
 ```bash
 composer require pestphp/pest --dev
 ```
