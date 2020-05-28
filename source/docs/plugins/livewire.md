@@ -7,7 +7,7 @@ section: content
 
 # Livewire Plugin
 
-The Livewire plugin for Pest adds support to the usage of [Livewire](https://laravel-livewire.com/) in [Higher Order Tests](/docs/higher-order-tests).
+The Livewire plugin for Pest adds support to use [Livewire](https://laravel-livewire.com/) in your [Higher Order Tests](/docs/higher-order-tests).
 
 Install the plugin using Composer:
 ```bash
@@ -16,7 +16,7 @@ composer require pestphp/pest-plugin-livewire --dev
 
 ### `livewire()`
 
-The `livewire()` method can be used in Higher Order Tests for testing your Livewire components:
+The `livewire()` method can be used in Higher Order Tests to test your Livewire components:
 ```php
 it('can be incremented')
     ->livewire(Counter::class)
