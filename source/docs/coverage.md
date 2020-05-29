@@ -7,7 +7,7 @@ section: content
 
 # Coverage
 
-**Requires [XDEBUG 2.0+](https://xdebug.org/docs/install/)**, or PCOV, or PHPDBG.
+**Requires [XDEBUG 2.0+](https://xdebug.org/docs/install/)**, or [PCOV](https://github.com/krakjoe/pcov), or [PHPDBG](https://www.php.net/manual/en/book.phpdbg.php).
 
 Code coverage in Pest tells you which lines of code your test
 suite execute and which lines it doesn’t. Of course, PHPUnit
