@@ -49,7 +49,7 @@ use Tests\TestCase;
 uses(TestCase::class)->in('Feature');
 ```
 
-You can use multiple `uses()` calls if they target **different directories**:
+You can use multiple `uses()` calls if they target **different folders**:
 
 ```php
 <?php
