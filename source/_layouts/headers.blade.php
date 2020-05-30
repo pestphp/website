@@ -27,7 +27,11 @@
 
 <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 
-<title>{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}</title>
+@if($page->getPath() == "/")
+<title>{{ $page->siteName }}</title>
+@else
+<title>{{ $page->title ? $page->title . ' | ' : '' }}{{ $page->siteName }}</title>
+@endif
 
 <link rel="home" href="{{ $page->baseUrl }}">
 
