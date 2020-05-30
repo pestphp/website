@@ -15,9 +15,8 @@ title: "Team"
 <div id="open-positions">
 	<ul class="list-inside text-lg">
 		<li>Discord Moderator</li>
-		<li>Documentation Moderator</li>
-		<li>Tester</li>
 		<li>Issue Triage</li>
+		<li>Designer</li>
 	</ul>
 </div>
 
