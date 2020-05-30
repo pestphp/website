@@ -42,6 +42,19 @@ return [
                     ]
                 ],
             ],
+            [
+                'name' => 'Owen Voke',
+                'github' => 'owenvoke',
+                'twitter' => 'owenvoke',
+                'city' => 'Bristol, England',
+                'role' => 'Developer',
+                'links' => [
+                    [
+                        'name' => 'Website',
+                        'url' => 'https://voke.dev',
+                    ],
+                ],
+            ],
         ],
     ],
 ];
