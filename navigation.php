@@ -34,6 +34,7 @@ return [
         'children' => [
             'Community' => 'docs/community',
             'Contribute' => 'docs/contribute',
+            'Team' => 'docs/team'
         ],
     ],
 ];
