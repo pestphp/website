@@ -7,8 +7,8 @@ section: content
 
 # Underlying Test Case
 
-The given closure to test functions is always bound to a specific
-test case class. By default that class is `PHPUnit\Framework\TestCase`.
+The closure you provide to your test function is always bound to a specific
+test case class. By default, that class is `PHPUnit\Framework\TestCase`:
 
 ```php
 <?php
@@ -21,12 +21,35 @@ it('has home', function () {
 });
 ```
 
-In real-applications, you may need to change this, and for that, you
-can use the `uses` function.
+In real-world applications, you may have to change it, and for that, you
+can call the `uses` function:
 
 ### `uses()`
 
-The `uses` function binds a class and/or trait to the test files.
+The `uses` function binds a class and/or trait to your test files.
+This is how you would bind a trait to your current file:
+
+```php
+<?php
+
+use Illuminate\Foundation\Testing\RefreshDatabase;
+
+// Uses the given trait in the current file
+uses(RefreshDatabase::class);
+```
+
+The `in()` function lets you use the given class and/or trait recursively inside the specified folder:
+
+```php
+<?php
+
+use Tests\TestCase;
+
+// Uses the given test case in the "Feature" folder recursively
+uses(TestCase::class)->in('Feature');
+```
+
+You can use multiple `uses()` calls if they target **different folders**:
 
 ```php
 <?php
@@ -34,11 +57,21 @@ The `uses` function binds a class and/or trait to the test files.
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
-// Uses the given trait in the current file
-uses(RefreshDatabase::class);
-
 // Uses the given test case in the "Feature" folder recursively
 uses(TestCase::class)->in('Feature');
+
+// Uses the given trait in the "Unit" folder recursively
+uses(RefreshDatabase::class)->in('Unit');
+```
+
+
+To bind multiple classes and/or traits at once, group them in your `uses()` call like so:
+
+```php
+<?php
+
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 
 // Uses the given test case and trait in the current folder recursively
 uses(TestCase::class, RefreshDatabase::class)->in(__DIR__);
@@ -49,6 +82,7 @@ uses(TestCase::class, RefreshDatabase::class)->in(__DIR__);
 Please consider creating a file with the name `tests/Pest.php` on the
 root directory of your tests folder. No worries, that file
 is autoloaded automatically.
+It's an ideal place to recursively bind traits and classes to your tests with the `uses()` function.
 
 ```
 tests
