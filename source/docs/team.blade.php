@@ -13,9 +13,6 @@ title: "Team"
 </blockquote>
 
 <div id="open-positions">
-	<h3 class="text-2xl lg:text-3xl">Here are some open positions</h3>
-	<p class="text-gray-700 text-lg mb-6">We will be happy to join us!</p>
-
 	<ul class="list-inside text-lg">
 		<li>Discord Moderator</li>
 		<li>Documentation Moderator</li>
