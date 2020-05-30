@@ -21,7 +21,7 @@ return [
                 'github' => 'AlexMartinFR',
                 'city' => 'Berry, France',
                 'twitter' => 'AlexMartinFR',
-                'role' => 'UX Watchdog',
+                'role' => 'UX Architect',
                 'links' => [
                     [
                         'name' => 'Instagram',
