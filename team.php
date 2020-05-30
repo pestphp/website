@@ -21,8 +21,8 @@ return [
                 'github' => 'AlexMartinFR',
                 'city' => 'Berry, France',
                 'twitter' => 'AlexMartinFR',
-                'role' => '',
-                'links' => []
+                'role' => 'UX Watchdog',
+                'links' => [https://www.instagram.com/alexmartinfr/]
             ],
             [
                 'name' => 'Vaggelis Yfantis',
