@@ -22,7 +22,12 @@ return [
                 'city' => 'Berry, France',
                 'twitter' => 'AlexMartinFR',
                 'role' => 'UX Watchdog',
-                'links' => [https://www.instagram.com/alexmartinfr/]
+                'links' => [
+                    [
+                        'name' => 'Instagram',
+                        'url' => 'https://www.instagram.com/alexmartinfr/'
+                    ]
+                ],
             ],
             [
                 'name' => 'Vaggelis Yfantis',
