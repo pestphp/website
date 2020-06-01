@@ -104,4 +104,4 @@ This Pest test is equivalent to the PHPUnit one, and it only has 6 lines of code
 19 original lines. And most importantly, the test now contains only what really matters.
 
 
-Next section: [Symfony →](/docs/guides/symfony)
+Next section: [Laravel →](/docs/guides/laravel)
