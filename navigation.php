@@ -15,6 +15,7 @@ return [
             'Skipping Tests' => 'docs/skipping-tests',
             'Datasets' => 'docs/datasets',
             'Coverage' => 'docs/coverage',
+            'Plugins' => 'docs/plugins',
         ],
     ],
     'Guides' => [
