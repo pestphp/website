@@ -20,9 +20,10 @@ return [
     ],
     'Guides' => [
         'children' => [
-            'Laravel' => 'docs/guides/laravel',
             'PHPUnit' => 'docs/guides/phpunit',
+            'Laravel' => 'docs/guides/laravel',
             'Symfony' => 'docs/guides/symfony',
+            'Creating Plugins' => 'docs/plugins',
         ],
     ],
     'Plugins' => [
