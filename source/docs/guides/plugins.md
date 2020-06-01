@@ -35,7 +35,6 @@ for our tests. We create a file `InteractsWithFaker.php` with the following code
 
 ```php
 if (!function_exists('faker')) {
-    /** @phpstan-ignore-next-line */
     function faker(string $locale = null): Faker\Generator
     {
         return Faker\Factory::create($locale ?? Faker\Factory::DEFAULT_LOCALE);
