@@ -16,7 +16,7 @@ To create a new repository from it click on the "Use this template" button. Call
 
 Now clone the new repository to work on your plugin.
 
-Edit `composer.json` and adjust the fields `name` and `description` to fit your plugin.
+Edit *composer.json* and adjust the fields `name` and `description` to fit your plugin.
 
 ## Adding global functions
 
