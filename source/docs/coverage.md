@@ -41,4 +41,4 @@ for coverage results. If the thresholds are not met, Pest will return failure.
 
 ![Coverage Min](/assets/img/coverage-min.png)
 
-Next section: [Laravel →](/docs/guides/laravel)
+Next section: [PHPUnit →](/docs/guides/phpunit)
