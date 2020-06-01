@@ -44,7 +44,9 @@ running Pest on the command-line:
 ./vendor/bin/pest --group=integration,browser
 ```
 
-> **Note:** If you have PHPUnit test classes in your suite, know that `uses()->group('integration')->in('Feature')` will **not** put any of them under the *integration* group. Use the `@group` [annotation](https://phpunit.readthedocs.io/en/latest/annotations.html) for that purpose. Pest will understand it.
+> **Note:** The `uses()->group('integration')->in('Feature')` will **not** put any PHPUnit test class under the *integration* group.
+You still need the `@group` [annotation](https://phpunit.readthedocs.io/en/latest/annotations.html) for them.
+Pest will understand it.
 
 
 Next section: [Skipping Tests →](/docs/skipping-tests)
