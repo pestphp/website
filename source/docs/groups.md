@@ -43,5 +43,7 @@ running Pest on the command-line:
 ```bash
 ./vendor/bin/pest --group=integration,browser
 ```
+> **Note:** The `--group` option will only select Pest tests. It doesn't support the PHPUnit `@group` annotation.
+
 
 Next section: [Skipping Tests →](/docs/skipping-tests)
