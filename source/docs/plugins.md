@@ -21,7 +21,7 @@ Edit `composer.json` and adjust the fields `name` and `description` to fit your 
 ## Adding global functions
 
 A plugin may integrate additional functions. These may be even external
-libraries, added to the global space. A good example is the [Faker plugin](https://github.com/pestphp/pest-plugin-faker), 
+libraries, added to the global scope. A good example is the [Faker plugin](https://github.com/pestphp/pest-plugin-faker), 
 which we are going to reproduce here. 
 
 If your plugin has any dependencies, then add them first with `composer`:
@@ -43,7 +43,7 @@ if (!function_exists('faker')) {
 }
 ```
 
-This provides a `fake()` method inside our tests, by creating an object and returning it. 
+This provides a `faker()` method inside our tests, by creating an object and returning it. 
 Now we can use `Faker` directly and easily in our tests: 
 
 ```php
