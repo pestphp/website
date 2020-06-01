@@ -133,4 +133,4 @@ $app->register(Pest\Laravel\PestServiceProvider::class);
 ```
 
 
-Next section: [PHPUnit →](/docs/guides/phpunit)
+Next section: [Symfony →](/docs/guides/symfony)
