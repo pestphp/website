@@ -13,8 +13,9 @@ return [
             'Exceptions & Errors' => 'docs/exceptions-and-errors',
             'Groups Of Tests' => 'docs/groups',
             'Skipping Tests' => 'docs/skipping-tests',
-            'Datasets' => 'docs/datasets',
+            'Datases' => 'docs/datasets',
             'Coverage' => 'docs/coverage',
+            'Plugins' => 'docs/plugins',
         ],
     ],
     'Guides' => [
