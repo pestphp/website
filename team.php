@@ -55,6 +55,19 @@ return [
                     ],
                 ],
             ],
+            [
+                'name' => 'Johannes Pichler',
+                'github' => 'fetzi',
+                'twitter' => 'fetzi_io',
+                'city' => 'Linz, Austria',
+                'role' => 'Developer',
+                'links' => [
+                    [
+                        'name' => 'Website',
+                        'url' => 'https://fetzi.dev',
+                    ],
+                ],
+            ],
         ],
     ],
 ];
