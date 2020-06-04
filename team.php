@@ -67,6 +67,13 @@ return [
                         'url' => 'https://fetzi.dev',
                     ],
                 ],
+            ],[
+                'name' => 'Caneco',
+                'github' => 'Caneco',
+                'twitter' => 'Caneco',
+                'city' => 'Lisbon, Portugal',
+                'role' => 'Brand',
+                'links' => [],
             ],
         ],
     ],
