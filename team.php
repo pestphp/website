@@ -17,32 +17,6 @@ return [
                 ],
             ],
             [
-                'name' => 'Alex Martin',
-                'github' => 'AlexMartinFR',
-                'city' => 'Berry, France',
-                'twitter' => 'AlexMartinFR',
-                'role' => 'UX Architect',
-                'links' => [
-                    [
-                        'name' => 'Instagram',
-                        'url' => 'https://www.instagram.com/alexmartinfr/'
-                    ]
-                ],
-            ],
-            [
-                'name' => 'Vaggelis Yfantis',
-                'github' => 'octoper',
-                'twitter' => 'itsoctoper',
-                'city' => 'Heraklion, Greece',
-                'role' => 'Front-End Developer',
-                'links' => [
-                    [
-                        'name' => 'Website',
-                        'url' => 'https://octoper.me'
-                    ]
-                ],
-            ],
-            [
                 'name' => 'Owen Voke',
                 'github' => 'owenvoke',
                 'twitter' => 'owenvoke',
@@ -67,7 +41,34 @@ return [
                         'url' => 'https://fetzi.dev',
                     ],
                 ],
-            ],[
+            ],
+            [
+                'name' => 'Vaggelis Yfantis',
+                'github' => 'octoper',
+                'twitter' => 'itsoctoper',
+                'city' => 'Heraklion, Greece',
+                'role' => 'Front-End Developer',
+                'links' => [
+                    [
+                        'name' => 'Website',
+                        'url' => 'https://octoper.me'
+                    ]
+                ],
+            ],
+            [
+                'name' => 'Alex Martin',
+                'github' => 'AlexMartinFR',
+                'city' => 'Berry, France',
+                'twitter' => 'AlexMartinFR',
+                'role' => 'UX Architect',
+                'links' => [
+                    [
+                        'name' => 'Instagram',
+                        'url' => 'https://www.instagram.com/alexmartinfr/'
+                    ]
+                ],
+            ],
+            [
                 'name' => 'Caneco',
                 'github' => 'Caneco',
                 'twitter' => 'Caneco',
