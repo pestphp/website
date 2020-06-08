@@ -38,4 +38,9 @@ return [
             'Team' => 'docs/team'
         ],
     ],
+    'More' => [
+        'children' => [
+            'Changelog' => 'docs/changelog'
+        ],
+    ]
 ];
