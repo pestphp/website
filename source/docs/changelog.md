@@ -1,3 +1,10 @@
+---
+title: Changelog
+description: Changelog
+extends: _layouts.documentation
+section: content
+---
+
 # Changelog
 All notable changes to this project will be documented in this file.
 
