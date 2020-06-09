@@ -29,6 +29,7 @@ return [
         'children' => [
             'Livewire' => 'docs/plugins/livewire',
             'Faker' => 'docs/plugins/faker',
+            'Watch' => 'docs/plugins/watch',
         ]
     ],
     'Get involved' => [
