@@ -24,7 +24,7 @@ The `faker()` function will create an instance of the Faker generator with the d
 ```php
 it('generates a name using faker', function () {
     $name = faker()->name;
-    
+
     assertIsString($name);
 });
 ```
@@ -35,11 +35,11 @@ creating the instance of the Faker generator.
 ```php
 it('generates a name using faker with locale', function () {
     $name = faker('fr_FR')->name;
-    
+
     assertIsString($name);
 });
 ```
 
 Remember, for the full list of available Faker methods, please refer to the [Faker documentation](https://github.com/fzaninotto/Faker#formatters).
 
-Next section: [Community →](/docs/community)
+Next section: [Watch Plugin →](/docs/plugins/watch)

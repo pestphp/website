@@ -46,4 +46,4 @@ it('can be decremented', function () {
 
 Remember, for the full list of available Livewire methods, please refer to the [Livewire documentation](https://laravel-livewire.com/docs/testing).
 
-Next section: [Faker →](/docs/plugins/faker)
+Next section: [Faker Plugin →](/docs/plugins/faker)
