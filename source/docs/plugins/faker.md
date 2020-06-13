@@ -44,6 +44,6 @@ it('generates a name using faker with locale', function () {
 });
 ```
 
-Remember, for the full list of available Faker methods, please refer to the [Faker documentation](https://github.com/fzaninotto/Faker#formatters).
+Finally, for the full list of available Faker methods, please refer to the [Faker documentation](https://github.com/fzaninotto/Faker#formatters).
 
 Next section: [Community →](/docs/community)
