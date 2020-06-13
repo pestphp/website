@@ -9,6 +9,8 @@ section: content
 
 The Faker Plugin for Pest provides additional functions for using the [Faker](https://github.com/fzaninotto/Faker) library.
 
+**Source code**: [github.com/pestphp/pest-plugin-faker](https://github.com/pestphp/pest-plugin-faker)
+
 Install the plugin using Composer:
 
 ```bash
