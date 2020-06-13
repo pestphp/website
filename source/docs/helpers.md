@@ -23,13 +23,16 @@ Laravel helper:
 ```php
 <?php // tests/Helpers.php
 
-use Tests\TestCase;
+namespace Tests;
+
 use Illuminate\Contracts\Auth\Authenticatable;
 
 /**
  * Set the currently logged in user for the application.
+ *
+ * @return TestCase
  */
-function actingAs(Authenticatable $user, string $driver = null): TestCase
+function actingAs(Authenticatable $user, string $driver = null)
 {
     return test()->actingAs($user, $driver);
 }
@@ -41,6 +44,8 @@ access to the current test case.
 Now, you can use the `actingAs` helper in your tests:
 ```php
 <?php
+
+use function Tests\actingAs;
 
 it('redirects to user profile', function () {
     $user = factory(User::class)->create();
