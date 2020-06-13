@@ -22,6 +22,7 @@ return [
             'PHPUnit' => 'docs/guides/phpunit',
             'Laravel' => 'docs/guides/laravel',
             'Symfony' => 'docs/guides/symfony',
+            'Pest From Scratch' => 'docs/guides/pest-from-scratch',
             'Creating Plugins' => 'docs/guides/plugins',
         ],
     ],
