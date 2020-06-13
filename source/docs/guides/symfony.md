@@ -60,4 +60,4 @@ test('something', function() {
 
 > **Note:** If you have set up your project using [symfony skeleton](https://github.com/symfony/skeleton), be sure that you have [BrowserKit component](https://symfony.com/doc/current/components/browser_kit.html) installed, so that you can successfully run the tests that interact with requests.
 
-Next section: [Creating Plugins →](/docs/guides/plugins)
+Next section: [Pest From Scratch →](/docs/guides/pest-from-scratch)
