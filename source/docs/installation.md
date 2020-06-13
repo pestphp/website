@@ -7,36 +7,96 @@ section: content
 
 # Installation
 
-**Requires [PHP 7.3+](https://php.net/releases/)**
+## Install Pest on a blank project
 
-1. First, your *composer.json* file must have these options: `"minimum-stability": "dev",` and `"prefer-stable": true,`.
+> **Note:** Pest requires [PHP 7.3+](https://php.net/releases/) to work.
 
-2. Then, make sure your PHPUnit dependency is set to `^9.0`:
+1. Inside a new directory, set up your project with composer:
+
+```bash
+composer init
+```
+
+2. Then, make sure your new `composer.json` file contains the following options:
+
+```json
+"minimum-stability": "dev",
+"prefer-stable": true,
+```
+
+3. Now, require **Pest**:
+
+```bash
+composer require pestphp/pest --dev
+```
+
+4. Use the `pest --init` command to initialise your test environement:
+
+```bash
+./vendor/bin/pest --init
+```
+
+Under the hood, this Pest command will create the following:
+
+- a `tests` directory,
+- a `phpunit.xml` file,
+- a `tests/Pest.php` file,
+- a `tests/Helpers.php` file,
+- a `tests/ExampleTest.php` file,
+
+5. Finally, you can run Pest directly from the command line:
+
+```bash
+./vendor/bin/pest
+```
+
+![Install](/assets/img/install.png)
+
+## Install Pest on an existing project
+
+> **Note:** Pest requires [PHP 7.3+](https://php.net/releases/) to work.
+
+1. Make sure your existing `composer.json` file contains the following options:
+
+```json
+"minimum-stability": "dev",
+"prefer-stable": true,
+```
+
+2. Then, make sure your _PHPUnit_ dependency is set to `^9.0`:
 
 ```bash
 composer require phpunit/phpunit:"^9.0" --dev --update-with-dependencies
 ```
 
-> **Pest** will use your current `phpunit.xml`. If you don't have one, make you sure
-you [download this file](https://github.com/pestphp/pest/blob/master/stubs/Laravel/phpunit.xml) and
-place it on the root of your project.
+3. If you don't have a `phpunit.xml` file, [download this file](https://github.com/pestphp/pest/blob/master/stubs/Laravel/phpunit.xml) and place it on the root of your project.
 
-3. **If you are using Laravel**, make sure your Collision dependency is set to `^5.0`:
+4. **If you are using Laravel**, make sure your _Collision_ dependency is set to `^5.0`:
+
 ```bash
 composer require nunomaduro/collision:"^5.0" --dev --update-with-dependencies
 ```
 
-4. Next, require **Pest**:
+5. Next, require **Pest**:
+
 ```bash
 composer require pestphp/pest --dev
 ```
 
-4. **If you are using Laravel**, install Pest in your test suite using the `pest:install` Artisan command:
+6. **If you are using Laravel**, run the `pest:install` _Artisan_ command to install Pest in your test suite:
+
 ```bash
 php artisan pest:install
 ```
 
-5. Finally, you can run Pest directly from the command line:
+**Otherwise**, run the `pest --init` command to install Pest in your test suite:
+
+```bash
+./vendor/bin/pest --init
+```
+
+7. Finally, you can run Pest directly from the command line:
+
 ```bash
 ./vendor/bin/pest
 ```
