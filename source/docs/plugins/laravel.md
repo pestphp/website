@@ -31,7 +31,7 @@ Note that Pest will automatically generate a description for these tests:
 ✓ get '/' → assertStatus 200
 ```
 
-When you need to use multiple functions, wrap them in curly brackets like so:
+To import multiple methods, wrap them in curly brackets like so:
 
 ```php
 use function Pest\Laravel\{get, getJson};
