@@ -4,7 +4,6 @@ description: Changelog
 extends: _layouts.documentation
 section: content
 ---
-
 # Changelog
 All notable changes to this project will be documented in this file.
 
@@ -12,6 +11,27 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [v0.2.0 (2020-06-14)](https://github.com/pestphp/pest/compare/v0.1.5...v0.2.0)
+### Adds
+- `--init` option to install Pest on a new blank project ([70b3c7e](https://github.com/pestphp/pest/commit/70b3c7ea1ddb031f3bbfaabdc28d56270608ebbd))
+- pending higher orders tests aka tests without description ([aa1917c](https://github.com/pestphp/pest/commit/aa1917c28d9b69c2bd1d51f986c4f61318ee7e16))
+
+### Fixed
+- `--verbose` and `--colors` options not being used by printers ([#51](https://github.com/pestphp/pest/pull/51))
+- missing support on windows ([#61](https://github.com/pestphp/pest/pull/61))
+
+### Changed
+- `helpers.php` stub provides now namespaced functions
+- functions provided by plugins are now namespaced functions:
+
+```php
+use function Pest\Faker\faker;
+
+it('foo', function () {
+    $name = faker()->name;
+});
+```
 
 ## [v0.1.5 (2020-05-24)](https://github.com/pestphp/pest/compare/v0.1.4...v0.1.5)
 ### Fixed
