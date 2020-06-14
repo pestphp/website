@@ -16,18 +16,18 @@ section: content
 "prefer-stable": true,
 ```
 
-2. Then, make sure your _PHPUnit_ dependency is set to `9.*`:
+2. Then, make sure your _PHPUnit_ dependency is set to `^9.0`:
 
 ```bash
-composer require phpunit/phpunit:"9.*" --dev --update-with-dependencies
+composer require phpunit/phpunit:"^9.0" --dev --update-with-dependencies
 ```
 
 3. If you don't already have a `phpunit.xml` file, [download this file](https://github.com/pestphp/pest/blob/master/stubs/Laravel/phpunit.xml) and place it on the root of your project.
 
-4. **If you are using Laravel**, make sure your _Collision_ dependency is set to `5.*`:
+4. **If you are using Laravel**, make sure your _Collision_ dependency is set to `^5.0`:
 
 ```bash
-composer require nunomaduro/collision:"5.*" --dev --update-with-dependencies
+composer require nunomaduro/collision:"^5.0" --dev --update-with-dependencies
 ```
 
 5. Next, require **Pest**:
