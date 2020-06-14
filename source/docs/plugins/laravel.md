@@ -50,4 +50,4 @@ Once again, Pest will generate a description for each test:
 
 Remember, for the full list of available Laravel testing methods, please refer to the [Laravel documentation](https://laravel.com/docs/master/http-tests).
 
-Next section: [Faker →](/docs/plugins/faker)
+Next section: [Livewire →](/docs/plugins/livewire)
