@@ -9,6 +9,8 @@ section: content
 
 The Laravel Plugin for Pest gives your direct access to Laravel's testing API in your test files.
 
+**Source code**: [github.com/pestphp/pest-plugin-laravel](https://github.com/pestphp/pest-plugin-laravel)
+
 Install the plugin using Composer:
 
 ```bash
