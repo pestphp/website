@@ -30,6 +30,7 @@ return [
         'children' => [
             'Livewire' => 'docs/plugins/livewire',
             'Faker' => 'docs/plugins/faker',
+            'Snapshots' => 'docs/plugins/snapshots',
         ]
     ],
     'Get involved' => [
