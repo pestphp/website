@@ -28,6 +28,7 @@ return [
     ],
     'Plugins' => [
         'children' => [
+            'Laravel' => 'docs/plugins/laravel',
             'Livewire' => 'docs/plugins/livewire',
             'Faker' => 'docs/plugins/faker',
             'Snapshots' => 'docs/plugins/snapshots',
