@@ -17,9 +17,24 @@ Install the plugin using Composer:
 composer require pestphp/pest-plugin-laravel --dev
 ```
 
-### `Pending Higher Order Tests`
+### Functions
 
-You can now import Laravel testing methods to access them directly in your tests. This lets you write even simpler tests than before:
+You may import and use the functions under the `Pest\Laravel` namespace
+to have easy access Laravel's testing API. As example, the `get` function
+makes a `GET` request into the application:
+
+```php
+use function Pest\Laravel\get;
+
+it('has a welcome page', function () {
+    get('/')->assertStatus(200);
+});
+```
+
+### Tests without description
+
+Also with the Laravel plugin, tests can be written without description. This
+lets you write even simpler tests than before:
 
 ```php
 use function Pest\Laravel\get;
@@ -33,7 +48,7 @@ Note that Pest will automatically generate a description for these tests:
 ✓ get '/' → assertStatus 200
 ```
 
-To import multiple methods, wrap them in curly brackets like so:
+To import multiple functions, wrap them in curly brackets like so:
 
 ```php
 use function Pest\Laravel\{get, getJson};
