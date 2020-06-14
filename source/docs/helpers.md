@@ -18,8 +18,7 @@ By default, Pest autoloads the `tests/Helpers.php` file. In this file,
 you can place your custom helpers. Of course, if those helpers are specific
 to a test file, you can place them inside of that test file only.
 
-For example, imagine that you want to make a custom helper for the `actingAs`
-Laravel helper:
+For example, imagine that you want to make a custom helper for the `actingAs` Laravel helper:
 ```php
 <?php // tests/Helpers.php
 
