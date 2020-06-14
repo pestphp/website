@@ -11,7 +11,7 @@ The Snapshots Plugin for Pest adds [snapshot](https://github.com/spatie/phpunit-
 
 **Source code**: [github.com/spatie/pest-plugin-snapshots](https://github.com/spatie/pest-plugin-snapshots)
 
-Snapshot tests are a very useful tool whenever you want to make sure things don't not change unexpectedly. Find more
+Snapshot tests are a very useful tool whenever you want to make sure things don't change unexpectedly. Find more
 about snapshot testing here: [sebastiandedeyne.com/a-package-for-snapshot-testing-in-phpunit/](https://sebastiandedeyne.com/a-package-for-snapshot-testing-in-phpunit/)
 
 Install the plugin using Composer:
@@ -47,7 +47,7 @@ If you’re working with specific data like JSON or XML, you’re better off usi
 - `assertMatchesXmlSnapshot()`
 - `assertMatchesYamlSnapshot()`
 
-Note that, be default, snapshots are stored in a `tests/__snapshots__` directory.
+Note that, by default, snapshots are stored in a `tests/__snapshots__` directory.
 
 Also, when you expect a changed value, you may need to run the `-d --update-snapshots` flag to update the existing snapshots:
 ```
