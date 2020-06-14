@@ -12,17 +12,17 @@ Plugins can extend Pest's functionality and are easy to write.
 ## Setting up the plugin template
 
 To create your own plugin, it's easiest to start with the [pest-plugin-template](https://github.com/pestphp/pest-plugin-template).
-To create a new repository from it click on the "Use this template" button. Call it `pest-plugin-<yourpluginname>`. 
+To create a new repository from it click on the "Use this template" button. Call it `pest-plugin-<yourpluginname>`.
 
 Now clone the new repository to work on your plugin.
 
-Edit *composer.json* and adjust the fields `name` and `description` to fit your plugin.
+Edit _composer.json_ and adjust the fields `name` and `description` to fit your plugin.
 
 ## Adding global functions
 
 A plugin may integrate additional functions. These may be even external
-libraries, added to the global scope. A good example is the [Faker plugin](https://github.com/pestphp/pest-plugin-faker), 
-which we are going to reproduce here. 
+libraries, added to the global scope. A good example is the [Faker plugin](https://github.com/pestphp/pest-plugin-faker),
+which we are going to reproduce here.
 
 If your plugin has any dependencies, then add them first with `composer`:
 
@@ -42,8 +42,8 @@ if (!function_exists('faker')) {
 }
 ```
 
-This provides a `faker()` method inside our tests, by creating an object and returning it. 
-Now we can use `Faker` directly and easily in our tests: 
+This provides a `faker()` method inside our tests, by creating an object and returning it.
+Now we can use `Faker` directly and easily in our tests:
 
 ```php
 it('doing something with faker', function() ) {
@@ -54,6 +54,7 @@ it('doing something with faker', function() ) {
 Before our `faker()` method is available though, we must ensure it is always loaded.
 
 To load our extension, we must add or adjust the `autoload` section in the `composer.json` to point to the files we want to load:
+
 ```json
 ...
     "autoload": {
@@ -61,16 +62,17 @@ To load our extension, we must add or adjust the `autoload` section in the `comp
     },
 ...
 ```
+
 Any amount of further files can be added this way. They will be loaded automatically.
 
-The `Plugin.php` file from the template is only required when adding functionality as explained 
+The `Plugin.php` file from the template is only required when adding functionality as explained
 in the following section, and can be safely deleted otherwise.
 
 ## Adding Higher Order methods
 
-Methods can also be added for higher order tests. 
+Methods can also be added for higher order tests.
 
-We are going to add a trait and tell Pest to use it. We are going to call our imaginery plugin `MyPlugin`. 
+We are going to add a trait and tell Pest to use it. We are going to call our imaginery plugin `MyPlugin`.
 For writing your own plugin, choice your own name and make sure you adjust all occurences in the following code.
 
 First, let's create our trait as `src/MyPluginTrait.php`:
@@ -89,7 +91,7 @@ trait MyPluginTrait
         return $this->get('/')
                     ->assertSee('Welcome');
     }
-    
+
     public function actOnProfilePage()
     {
         $user = factory(User::class)->create();
@@ -101,6 +103,7 @@ trait MyPluginTrait
 Make sure, you always return the object, so high order functionality isn't broken.
 
 This will allow us to write tests like this:
+
 ```php
 it('has a homepage')->visitHomePage()
     ->actOnProfilePage()
@@ -115,7 +118,7 @@ use Pest\PluginMyPlugin\MyPluginTrait;
 Pest\Plugin::uses(MyPluginTrait::class);
 ```
 
-And finally, we have to load the files. We adjust our `composer.json` as following, to reference our namespace 
+And finally, we have to load the files. We adjust our `composer.json` as following, to reference our namespace
 for PSR-4 autoloading and tell it to load and run our `Plugin.php`:
 
 ```json
@@ -135,11 +138,9 @@ To access the current test case in your plugin, you can use `test()`.
 
 `$this` is also available, as you would use it inside `function() {}` in your tests.
 
-
 ## Testing and submitting your plugin
 
-It is possible to add tests to your plugin in the same way you would 
+It is possible to add tests to your plugin in the same way you would
 otherwise. Read the `README.MD` in the plugin template for more information.
- 
- 
-Next section: [Livewire Plugin →](/docs/plugins/livewire) 
+
+Next section: [Laravel Plugin →](/docs/plugins/laravel)
