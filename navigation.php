@@ -34,16 +34,17 @@ return [
             'Snapshots' => 'docs/plugins/snapshots',
         ]
     ],
+    'More' => [
+        'children' => [
+            'Changelog' => 'docs/changelog',
+            'Upgrade Guide' => 'docs/upgrade-guide',
+        ],
+    ],
     'Get involved' => [
         'children' => [
             'Community' => 'docs/community',
             'Contribute' => 'docs/contribute',
-            'Team' => 'docs/team'
-        ],
-    ],
-    'More' => [
-        'children' => [
-            'Changelog' => 'docs/changelog'
+            'Team' => 'docs/team',
         ],
     ]
 ];

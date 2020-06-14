@@ -62,3 +62,5 @@ it('foo', function () {
 ## [v0.1.0 (2020-05-09)](https://github.com/pestphp/pest/commit/de2929077b344a099ef9c2ddc2f48abce14e248f)
 ### Added
 - First version
+
+Next section: [Upgrade Guide →](/docs/upgrade-guide)

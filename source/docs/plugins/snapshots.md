@@ -54,4 +54,4 @@ Also, when you expect a changed value, you may need to run the `-d --update-snap
 ./vendor/bin/pest -d --update-snapshots
 ```
 
-Next section: [Community →](/docs/community)
+Next section: [Changelog →](/docs/changelog)
