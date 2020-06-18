@@ -14,6 +14,30 @@ li {
   }
 }
 
+pre {
+  .copyBtn {
+    @apply absolute;
+    @apply right-0;
+    @apply h-6 w-6;
+    @apply outline-none;
+    @apply text-gray-700;
+    &:hover, &:focus, &:active {
+      @apply text-white;
+    }
+    svg {
+      @apply absolute;
+      @apply top-0;
+      @apply right-0;
+      @apply mr-4 mt-5;
+    }
+  }
+  @apply .flex;
+  code {
+    @apply .flex;
+    @apply .flex-1;
+  }
+}
+
 /*
  * highlightjs-material-dark-theme
  * Material Dark theme for Highlight.js
