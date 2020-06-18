@@ -33,7 +33,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
 <script>
     document.querySelectorAll('pre code').forEach((block) => {
-    hljs.initHighlightingOnLoad();
-});
+        hljs.initHighlightingOnLoad();
+    });
 </script>
 @endpush
