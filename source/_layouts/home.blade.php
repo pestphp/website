@@ -9,7 +9,7 @@
             src="https://unpkg.com/jquery@3.5.1/dist/jquery.min.js"
             crossorigin="anonymous" async></script>
 
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
         <style type="text/css">
             .text-raleway {
                 font-family: 'Raleway', sans-serif;
