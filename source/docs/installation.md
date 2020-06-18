@@ -39,7 +39,7 @@ composer require pestphp/pest --dev
 6. **If you are using Laravel**, also require the `pest-plugin-laravel` and run the `pest:install` _Artisan_ command to install Pest in your test suite:
 
 ```bash
-composer require pestphp/pest-plugin-laravel && php artisan pest:install
+composer require pestphp/pest-plugin-laravel --dev && php artisan pest:install
 ```
 
 **Otherwise**, run the `pest --init` command to install Pest in your test suite:
