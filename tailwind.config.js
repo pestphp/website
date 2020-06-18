@@ -14,6 +14,9 @@ module.exports = {
   },
   theme: {
     extend: {
+      height: {
+        'screen-24': 'calc(100vh - 6rem)'
+      },
       fontFamily: {
         sans: [
           'Nunito Sans', ...defaultTheme.fontFamily.sans
