@@ -1,6 +1,6 @@
 ---
-title: Higher Order
-description: Higher Order
+title: Exceptions & Errors
+description: Exceptions & Errors
 extends: _layouts.documentation
 section: content
 ---
