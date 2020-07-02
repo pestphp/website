@@ -12,7 +12,8 @@
                   <div>
                      <div class="flex w-full md:w-auto">
                         <a href="/" title="{{ $page->siteName }} home">
-                           <img class="h-10 w-auto md:h-15 lg:h-20" src="/assets/img/small-logo.gif" alt="{{ $page->siteName }} logo">
+                           <img class="h-10 w-auto md:h-15 lg:h-20 hide-on-reduced-motion" src="/assets/img/small-logo.gif" alt="{{ $page->siteName }} logo">
+                           <img class="h-10 w-auto md:h-15 lg:h-20 show-on-reduced-motion" src="/assets/img/logo.png" alt="{{ $page->siteName }} logo">
                         </a>
                      </div>
                   </div>
