@@ -126,6 +126,54 @@ line in each of your tests by [binding it](/docs/underlying-test-case) in your `
 
 ---
 
+## Laravel Dusk
+
+Pest can also work seamlessly with [Laravel Dusk](https://laravel.com/docs/dusk).
+
+First, follow Dusk's [installation instructions](https://laravel.com/docs/7.x/dusk#installation).
+
+Then, add the "Browser" test suite under the `<testsuites>` tag in your `phpunit.xml` file:
+
+```xml
+<testsuites>
+    ...
+    <testsuite name="Browser">
+        <directory suffix="Test.php">./tests/Browser</directory>
+    </testsuite>
+</testsuites>
+```
+
+Finally, instruct Pest to use `DuskTestCase` as the base test case for the `Browser` directory by adding the following code to your `Pest.php` file:
+
+```php
+use Tests\DuskTestCase;
+
+uses(DuskTestCase::class)->in('Browser');
+``` 
+
+That's it! Now you can write Dusk tests using Pest's syntax:
+
+```php
+<?php
+
+use Laravel\Dusk\Browser;
+
+it('has homepage', function () {
+    $this->browse(function (Browser $browser) {
+        $browser->visit('/')
+            ->assertSee('Pest');
+    });
+});
+```
+
+> **Note:** You can still use Dusk's regular class-based syntax as you can do with any other tests. 
+
+Now, when you run `pest` you will see your Dusk tests as well.
+
+> **Note:** As for now, the Laravel plugin doesn't support Dusk's functions, so you'll have to use them with the `$this` variable as the example above shows.
+
+---
+
 > **Note:** To run Pest on Lumen, you must first register the PestServiceProvider in bootstrap/app.php:
 
 ```
