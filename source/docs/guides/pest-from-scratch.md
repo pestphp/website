@@ -50,7 +50,7 @@ Under the hood, this Pest command will create the following:
 ./vendor/bin/pest
 ```
 
-![Install](/assets/img/install.png)
+![Install](/assets/img/pestinit.png)
 
 Happy Testing!
 
