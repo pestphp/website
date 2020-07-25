@@ -7,17 +7,20 @@ section: content
 
 # Expectations
 
-In addition to assertions, Pest offers you a set of expectation.
+In addition to assertions, Pest offers you a set of expectations.
 These functions let you test your values against certain conditions.
 This API is inspired by [Jest](https://jestjs.io/docs/en/expect).
 Expectations also allow you to write your tests like you would a natural sentence:
 
 ```php
-// assertion
-assertTrue($variable);
 
-// expectation
-expect($variable)->toBe(true);
+test('expect true to be true', function () {
+  // assertion
+  assertTrue(true);
+
+  // expectation
+  expect(true)->toBe(true);
+});
 ```
 
 Here is the full list of **expectations** available in Pest:
