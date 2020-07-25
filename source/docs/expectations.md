@@ -13,7 +13,6 @@ This API is inspired by [Jest](https://jestjs.io/docs/en/expect).
 Expectations also allow you to write your tests like you would a natural sentence:
 
 ```php
-
 test('expect true to be true', function () {
   // assertion
   assertTrue(true);
