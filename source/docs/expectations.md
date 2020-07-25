@@ -15,7 +15,7 @@ Expectations also allow you to write your tests like you would a natural sentenc
 ```php
 test('expect true to be true', function () {
   // assertion
-  assertTrue(true);
+  $this->assertTrue(true);
 
   // expectation
   expect(true)->toBe(true);
@@ -182,7 +182,7 @@ expect(14)->toEqualWithDelta(10, 0.1);
 Asserts that the value is infinite:
 
 ```php
-expect($count)->toBeInfinite();
+expect($universe)->toBeInfinite();
 ```
 
 ### `toBeInstanceOf($class)`
