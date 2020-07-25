@@ -83,4 +83,4 @@ assertStringContainsString('Star', 'Star Wars');
 
 Remember, for the full list of **assertions**, please refer to [PHPUnit Assertions](https://phpunit.readthedocs.io/en/9.0/assertions.html) documentation.
 
-Next section: [Expectations →](/docs/expectations)
+Next section: [Setup and Teardown →](/docs/setup-and-teardown)
