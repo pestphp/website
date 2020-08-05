@@ -76,6 +76,19 @@ return [
                 'role' => 'Brand',
                 'links' => [],
             ],
+            [
+                'name' => 'Oliver Nybroe',
+                'github' => 'olivernybroe',
+                'twitter' => 'OliverNybroe',
+                'city' => 'Copenhagen, Denmark',
+                'role' => 'Developer',
+                'links' => [
+                    [
+                        'name' => 'Website',
+                        'url' => 'https://nybroe.dev'
+                    ]
+                ],
+            ],
         ],
     ],
 ];
