@@ -67,7 +67,8 @@ module.exports = {
   variants: {
     borderRadius: ['responsive', 'focus'],
     borderWidth: ['responsive', 'active', 'focus'],
-    width: ['responsive', 'focus']
+    width: ['responsive', 'focus'],
+    display: ['responsive', 'motion-safe', 'motion-reduce'],
   },
   plugins: [
     require('@tailwindcss/ui'),
