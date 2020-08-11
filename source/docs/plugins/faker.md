@@ -46,4 +46,4 @@ it('generates a name using faker with locale', function () {
 
 Finally, for the full list of available Faker methods, please refer to the [Faker documentation](https://github.com/fzaninotto/Faker#formatters).
 
-Next section: [Snapshots →](/docs/plugins/snapshots)
+Next section: [Global Assertions →](/docs/plugins/global-assertions)

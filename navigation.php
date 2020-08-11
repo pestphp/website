@@ -31,6 +31,7 @@ return [
             'Laravel' => 'docs/plugins/laravel',
             'Livewire' => 'docs/plugins/livewire',
             'Faker' => 'docs/plugins/faker',
+            'Global Assertions' => 'docs/plugins/global-assertions',
             'Snapshots' => 'docs/plugins/snapshots',
         ]
     ],
