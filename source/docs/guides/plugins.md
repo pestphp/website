@@ -142,4 +142,4 @@ Inside functions, to access the current test case in your plugin, you can use th
 
 In traits, `$this` is also available to access the current test case.
 
-Next section: [Drift →](/docs/guides/drift)
+Next section: [Laravel Plugin →](/docs/plugins/laravel)

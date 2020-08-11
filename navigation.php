@@ -23,8 +23,8 @@ return [
             'Laravel' => 'docs/guides/laravel',
             'Symfony' => 'docs/guides/symfony',
             'Pest From Scratch' => 'docs/guides/pest-from-scratch',
-            'Creating Plugins' => 'docs/guides/plugins',
             'Drift' => 'docs/guides/drift',
+            'Creating Plugins' => 'docs/guides/plugins',
         ],
     ],
     'Plugins' => [

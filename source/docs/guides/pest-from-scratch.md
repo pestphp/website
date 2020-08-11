@@ -54,4 +54,4 @@ Under the hood, this Pest command will create the following:
 
 Happy Testing!
 
-Next section: [Creating Plugins →](/docs/guides/plugins)
+Next section: [Drift →](/docs/guides/drift)

@@ -59,4 +59,4 @@ vendor/bin/drift polish tests
 
 ---
 
-Next section: [Laravel Plugin →](/docs/plugins/laravel)
+Next section: [Creating Plugins →](/docs/guides/plugins)
