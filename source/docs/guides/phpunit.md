@@ -103,5 +103,6 @@ it('has home page')
 This Pest test is equivalent to the PHPUnit one, and it only has 6 lines of code, down from the
 19 original lines. And most importantly, the test now contains only what really matters.
 
+Wouldn't it be cool if you could automatically migrate your PHPUnit tests to Pest? We got you! In the next section, you will learn all about Drift, our experimental migration tool. 🔥
 
-Next section: [Laravel →](/docs/guides/laravel)
+Next section: [Drift →](/docs/guides/drift)

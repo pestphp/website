@@ -20,6 +20,7 @@ return [
     'Guides' => [
         'children' => [
             'PHPUnit' => 'docs/guides/phpunit',
+            'Drift' => 'docs/guides/drift',
             'Laravel' => 'docs/guides/laravel',
             'Symfony' => 'docs/guides/symfony',
             'Pest From Scratch' => 'docs/guides/pest-from-scratch',
