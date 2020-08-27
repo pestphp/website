@@ -7,6 +7,7 @@ return [
             'Writing Tests' => 'docs/writing-tests',
             'Underlying Test Case' => 'docs/underlying-test-case',
             'Assertions' => 'docs/assertions',
+            'Expectations' => 'docs/expectations',
             'Setup And Teardown' => 'docs/setup-and-teardown',
             'Higher Order Tests' => 'docs/higher-order-tests',
             'Custom Helpers' => 'docs/helpers',
