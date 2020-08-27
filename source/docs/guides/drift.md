@@ -16,7 +16,7 @@ Drift is a command-line tool to migrate your PHPUnit tests to Pest.
 Drift can be installed through Composer like all Pest components using the following command:
 
 ```bash
-composer require --dev --with-dependencies pestphp/drift
+composer require pestphp/drift --dev --update-with-all-dependencies
 ```
 
 Once installed, it provides a Composer binary that can be executed with `vendor/bin/drift`.
