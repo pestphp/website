@@ -78,7 +78,7 @@ it('has home page')
     ->see('The Laravel Community Portal');
 ```
 
-Finally, the [Underlying Test Case](docs/underlying-test-case/) of this test
+Finally, the [Underlying Test Case](/docs/underlying-test-case/) of this test
 is `TestCase` and our test also uses Laravel's `DatabaseMigrations`. So
 let's move those in our `tests/Pest.php` file:
 ```php
