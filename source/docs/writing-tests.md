@@ -48,12 +48,11 @@ description; the second argument is a closure that contains the test expectation
 
 ```php
 test('asserts true is true', function () {
-    assertTrue(true);
+    $this->assertTrue(true);
+
+    expect(true)->toBeTrue();
 });
 ```
-
-> **Note**: The assertion above could also be written with `$this->assertTrue(true);`, because the test
-closure is bound to the underlying TestCase class.
 
 Here is what this example test will return:
 ```bash
@@ -67,7 +66,9 @@ description; the second argument is a closure that contains the test expectation
 
 ```php
 it('asserts true is true', function () {
-    assertTrue(true);
+    $this->assertTrue(true);
+
+    expect(true)->toBeTrue();
 });
 ```
 
