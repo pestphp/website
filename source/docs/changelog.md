@@ -12,6 +12,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [v0.3.1 (2020-08-29)](https://github.com/pestphp/pest/compare/v0.3.0...v0.3.1)
+### Added
+- Support to PHPUnit 9.3.8 ([#174](https://github.com/pestphp/pest/pull/174))
+
+## [v0.3.0 (2020-08-27)](https://github.com/pestphp/pest/compare/v0.2.3...v0.3.0)
+### Added
+- Expectation API (TODO)
+- PHPUnit 9.3 and PHP 8 support ([#128](https://github.com/pestphp/pest/pull/128))
+- Fowards `$this` calls to globals ([#169](https://github.com/pestphp/pest/pull/169))
+
+### Fixed
+- don't decorate output if --colors=never is set ([36b879f](https://github.com/pestphp/pest/commit/36b879f97d7b187c87a94eb60af5b7d3b7253d56))
+
 ## [v0.2.3 (2020-07-01)](https://github.com/pestphp/pest/compare/v0.2.2...v0.2.3)
 ### Added
 - `--init` and `pest:install` artisan command output changes ([#118](https://github.com/pestphp/pest/pull/118), [db7c4b1](https://github.com/pestphp/pest/commit/db7c4b174f0974969450dda71dcd649ef0c073a3))
@@ -79,5 +92,7 @@ it('foo', function () {
 ### Added
 - First version
 
+
+----
 
 Next section: [Upgrade Guide →](/docs/upgrade-guide)
