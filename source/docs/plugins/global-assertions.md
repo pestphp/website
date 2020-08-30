@@ -7,7 +7,7 @@ section: content
 
 # Global Assertions Plugin
 
-The Global Assertions Plugin for Pest provides global functions for assertions that were removed in v0.2
+The Global Assertions Plugin for Pest provides global functions for assertions that were removed in v0.3
 
 **Source code**: [github.com/pestphp/pest-plugin-global-assertions](https://github.com/pestphp/pest-plugin-global-assertions)
 
