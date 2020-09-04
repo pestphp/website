@@ -289,7 +289,7 @@ Asserts that the value is not a number (NaN):
 expect($nan)->toBeNan();
 ```
 
-### 'toBeNull()'
+### `toBeNull()`
 
 Asserts that the value is null:
 
