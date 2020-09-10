@@ -3,7 +3,7 @@
 <section>
    <div class="relative bg-white overflow-hidden">
       <div class="max-w-screen-xl mx-auto ">
-         <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+         <div class="relative z-10 bg-white lg:max-w-2xl lg:w-full">
             <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none">
                <polygon points="50,0 100,0 50,100 0,100" />
             </svg>
@@ -38,6 +38,20 @@
                      <div class="mt-3 sm:mt-0 sm:ml-3">
                         <a target="_blank" href="https://github.com/pestphp/pest" rel="noreferrer" style="color: background-color: #ffe7ff" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-purple-700 bg-purple-100 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:shadow-outline focus:border-purple-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
                         Source Code
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="bg-white">
+               <div class="max-w-screen-xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                  <p class="text-center text-base leading-6 font-semibold uppercase text-gray-600 tracking-wider">
+                     Sponsors
+                  </p>
+                  <div class="grid grid-cols-3 gap-8 md:grid-cols-8 lg:grid-cols-4">
+                     <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                        <a href="https://scoutapm.com/">
+                           <img src="https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/zwfpoand0gdlddjd1nlz" alt="Scout APM">
                         </a>
                      </div>
                   </div>
