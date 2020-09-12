@@ -18,10 +18,10 @@ section: content
 "prefer-stable": true,
 ```
 
-3. Then, make sure your _PHPUnit_ dependency is set to `^9.0`:
+3. Then, make sure your _PHPUnit_ dependency is set to `^9.3.10`:
 
 ```bash
-composer require phpunit/phpunit:"^9.0" --dev --update-with-dependencies
+composer require phpunit/phpunit:"^9.3.10" --dev --update-with-dependencies
 ```
 
 4. **If you are using Laravel**, make sure your _Collision_ dependency is set to `^5.0`:
