@@ -302,7 +302,15 @@ expect(null)->toBeNull();
 Asserts that the value array contains the provided `$key`:
 
 ```php
-expect($array)->toHaveKey('type');
+expect($array)->toHaveKey('key-a');
+```
+
+### `toHaveKeys(array $keys)`
+
+Asserts that the value array contains the provided `$keys`:
+
+```php
+expect($array)->toHaveKeys(['key-a', 'key-b']);
 ```
 
 ### `toBeDirectory()`
