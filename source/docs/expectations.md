@@ -132,12 +132,29 @@ Asserts that the `$count` matches the number of elements of `$value`:
 expect($dozen)->toHaveCount(12);
 ```
 
-### `toHaveProperty(string $name)`
+### `toHaveProperty(string $name, $value = null)`
 
 Asserts that the `$value` contains the property `$name`:
 
 ```php
 expect($user)->toHaveProperty('name');
+expect($user)->toHaveProperty('name', 'Nuno');
+```
+
+### `toMatchObject($object)`
+
+Asserts that the `$value` object matches a subsetof the properties of an given `$object`:
+
+```php
+$user = new stdClass();
+$user->id = 1;
+$user->email = 'enunomaduro@gmail.com';
+$user->name = 'Nuno';
+
+expect($user)->toMatchObject([
+    'email' => 'enunomaduro@gmail.com',
+    'name' => 'Nuno'
+]);
 ```
 
 ### `toEqual($expected)`
