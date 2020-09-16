@@ -354,4 +354,20 @@ Asserts that the value is a directory and is writable:
 expect($dir)->toBeWritableDirectory();
 ```
 
+### `toStartWith(string $expected)`
+
+Asserts that the value starts with the provided string:
+
+```php
+expect($content)->toStartWith('Hello');
+```
+
+### `toEndWith(string $expected)`
+
+Asserts that the value ends with the provided string:
+
+```php
+expect($content)->toEndWith('World');
+```
+
 Next section: [Setup And Teardown →](/docs/setup-and-teardown)
