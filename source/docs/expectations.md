@@ -370,6 +370,14 @@ Asserts that the value ends with the provided string:
 expect($content)->toEndWith('World');
 ```
 
+### `toMatch(string $expression)`
+
+Asserts that the value matches a regular expression:
+
+```php
+expect('Hello World')->toMatch('/^hello wo.*$/i');
+```
+
 ### `toMatchConstraint(Constraint $constraint)`
 
 Asserts that the value matches a specificed [PHPUnit constraint](https://github.com/sebastianbergmann/phpunit/tree/master/src/Framework/Constraint):
