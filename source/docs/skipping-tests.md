@@ -40,6 +40,8 @@ it('has home', function () {
     // ..
 })->only();
 ```
+> Please be aware that `->only()` requires all tests to be written with Pest in order to work correctly.
+
 
 ## Writing a Pending Test
 
