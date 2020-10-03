@@ -31,6 +31,13 @@ it('has home', function () {
 })->skip(true === true, 'Home page not available');
 ```
 
+And it also works with higher order tests
+```php
+it('works with higher order testing')
+    ->assertTrue(true)
+    ->skip();
+```
+
 ## Running a single test
 
 If you’d like to run a single test to debug a problem, just use the following syntax:
